@@ -27,4 +27,19 @@ export default {
   margin: 4px 2px;
   cursor: pointer;
 }
+.button6:hover {
+  background-color: #e79804;
+  border: rgb(0, 119, 255);
+  border-style: solid;
+  color: rgb(0, 119, 255);
+  width: 75%;
+  height: 500%;
+  padding: 100px 128px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 </style>

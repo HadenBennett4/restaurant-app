@@ -16,15 +16,21 @@ const store = createStore({
             paymentQuantity: [],
             paymentCount: 0,
             userMode: 0,
+            is21: false,
+            alcoholCode: "1234",
             //User Mode
-                //0 = regula customer
+                //0 = reg customer
                 //1 = child
     }
 },
 mutations: {
     increment (state) {
         state.count++;
+    },
+    make21True (state) {
+        state.is21 = true;
     }
+
 }
 
 })

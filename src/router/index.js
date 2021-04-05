@@ -24,6 +24,7 @@ import Pop from '../views/musicPlaylists/Pop.vue'
 import EDM from '../views/musicPlaylists/EDM.vue'
 import Jazz from '../views/musicPlaylists/Jazz.vue'
 import CashPayment from '../views/cashPayment.vue'
+import AlcoholCode from '../views/AlcoholCode.vue'
 
 const routes = [
   {
@@ -160,6 +161,12 @@ const routes = [
     path: '/cashPayment',
     name: 'CashPayment',
     component: CashPayment,
+  }
+  ,
+  {
+    path: '/alcoholCode',
+    name: 'AlcoholCode',
+    component: AlcoholCode,
   }
   
 
