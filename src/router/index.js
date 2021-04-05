@@ -25,6 +25,8 @@ import EDM from '../views/musicPlaylists/EDM.vue'
 import Jazz from '../views/musicPlaylists/Jazz.vue'
 import CashPayment from '../views/cashPayment.vue'
 import AlcoholCode from '../views/AlcoholCode.vue'
+import ChildModeCode from '../views/ChildModeCode.vue'
+import CheckChildModePassWord from '../views/CheckChildCodePassword'
 
 const routes = [
   {
@@ -167,6 +169,16 @@ const routes = [
     path: '/alcoholCode',
     name: 'AlcoholCode',
     component: AlcoholCode,
+  },
+  {
+    path: '/childModeCode',
+    name: 'ChildModeCode',
+    component: ChildModeCode,
+  },
+  {
+    path: '/checkChildModePassWord',
+    name: "CheckChildModePassWord",
+    component: CheckChildModePassWord
   }
   
 

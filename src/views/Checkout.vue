@@ -1,6 +1,6 @@
 <template> 
     <div class="container">
-    <div class="card3">
+    <div v-if="this.$store.state.userMode == 0" class="card3">
       <div v-if="this.$store.state.count == 0">
         <font size="+10">NO ITEMS IN ORDER</font>
         </div>
@@ -8,6 +8,12 @@
           <checkoutBox :priceFloat="item.priceFloat" :quan="getQuantity(item.name)" :name="item.name" :price="item.price" />
       </div>   
     </div>
+    <div v-else>
+      <br>
+      <br>
+      <br><br><br><br>
+      <font size="+10">CHILD MODE</font>
+      </div>
     <br>
     <br>
     <br>

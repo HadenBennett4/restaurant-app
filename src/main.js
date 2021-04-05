@@ -18,6 +18,8 @@ const store = createStore({
             userMode: 0,
             is21: false,
             alcoholCode: "1234",
+            isFirstTimeChildMode: true,
+            childModePassWord: "",
             //User Mode
                 //0 = reg customer
                 //1 = child

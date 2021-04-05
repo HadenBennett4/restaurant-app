@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <div v-if="this.$store.state.userMode == 0" class="footer">
     
       <h1 v-if="this.$store.state.paymentCount == 0"><br><br>NO ORDERS YET<font size="+20"></font></h1>
     <div class="card-body">

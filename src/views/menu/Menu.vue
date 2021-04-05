@@ -1,12 +1,17 @@
 <template>
   <h1>Menu</h1>
-  <button class="fixedbutton" v-bind:onclick="makeChildMode()">Child Mode</button>
-  <div  :class="container">
-    <div class="row">
+  <button class="fixedbutton" v-on:click="makeChildMode()">Child Mode</button>
+  <div class="container">
+    <div v-if="this.$store.state.userMode == 0" class="row">
       <div v-for="item in itemTypes" :key="item.name" class="col-4">
           <ItemType :image="item.image" :foodType="item.name"/>
       </div>
     </div>
+    <div v-else>
+      <br>
+      <br>
+      <font size="+10">CHILD MODE</font>
+      </div>
   </div>
 
 
@@ -31,11 +36,18 @@ export default {
   },
   methods: {
     makeChildMode(){
-      if(this.$store.state.userMode==1){
-        this.$store.state.userMode=0;
+      if(this.$store.state.isFirstTimeChildMode == true){
+          this.$store.state.isFirstTimeChildMode = false;
+          this.$router.push('/childModeCode');
+          this.$store.state.userMode=1;
       }else{
-        this.$store.state.userMode=1;
+        if(this.$store.state.userMode==1){
+          this.$router.push('/checkChildModePassWord');
+        }else{
+          this.$store.state.userMode=1;
+        }
       }
+      
     }
   }
 }

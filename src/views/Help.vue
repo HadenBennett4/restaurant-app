@@ -2,7 +2,14 @@
 <br>
 <br><br>
 <br>
+<div v-if="this.$store.state.userMode == 0">
   <button class="button6"> <font size="+10">Request Help</font></button>
+  </div>
+  <div v-else>
+      <br>
+      <br>
+      <font size="+10">CHILD MODE</font>
+      </div>
 </template>
 
 <script>
