@@ -7,13 +7,11 @@ export const entires = [
     "priceFloat": 8.99,
     "calories": "610",
     "ingredients": [
-      "Brioche Bun",
-      "Mayo",
-      "Pickles"
+      "Vodka",
+      "Fresh Cream",
+      "Coffee Liqeur"
     ],
     "allergens": [
-      "Eggs",
-      "Wheat",
       "Milk"
     ]
   },
@@ -25,13 +23,14 @@ export const entires = [
     "priceFloat": 8.99,
     "calories": "610",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "White Rum",
+      "Lime Juice",
+      "Orange Curacao",
+      "Orgeat Syrup",
+      "Dark rum"
     ],
     "allergens": [
-      "Eggs",
-      "Wheat",
-      "Milk"
+        "No Allergens",
     ]
   },
   {
@@ -42,13 +41,11 @@ export const entires = [
     "priceFloat": 8.99,
     "calories": "610",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Gin",
+      "Tonic Water"
     ],
     "allergens": [
-      "Eggs",
-      "Wheat",
-      "Milk"
+      "No Allergens"
     ]
   },
   {
@@ -59,13 +56,17 @@ export const entires = [
     "priceFloat": 8.99,
     "calories": "610",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Gomme Syrup",
+      "Lemon Juice",
+      "Gin",
+      "Tequila",
+      "Triple Sec",
+      "Vodka",
+      "White Rum",
+      "Splash Of Soda"
     ],
     "allergens": [
-      "Eggs",
-      "Wheat",
-      "Milk"
+      "No Allergens"
     ]
   },
   {
@@ -76,13 +77,12 @@ export const entires = [
     "priceFloat": 8.99,
     "calories": "610",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Coconut Cream",
+      "White Rum",
+      "Pineapple Juice"
     ],
     "allergens": [
-      "Eggs",
-      "Wheat",
-      "Milk"
+      "No Allergens"
     ]
   },
   {
@@ -93,13 +93,11 @@ export const entires = [
     "priceFloat": 8.99,
     "calories": "610",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Whiskey",
+      "Coke"
     ],
     "allergens": [
-      "Eggs",
-      "Wheat",
-      "Milk"
+      "No Allergens"
     ]
   },
   {
@@ -110,13 +108,12 @@ export const entires = [
     "priceFloat": 8.99,
     "calories": "610",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "White Rum",
+      "Simple Syrup",
+      "Lime Juice"
     ],
     "allergens": [
-      "Eggs",
-      "Wheat",
-      "Milk"
+      "No Allergens"
     ]
   },
   {
@@ -127,13 +124,16 @@ export const entires = [
     "priceFloat": 8.99,
     "calories": "610",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Vodka",
+      "Lemon Juice",
+      "Tomato Juice",
+      "Pepper",
+      "Salt",
+      "Tabsaco",
+      "Worcestershire Sauce"
     ],
     "allergens": [
-      "Eggs",
-      "Wheat",
-      "Milk"
+      "No Allergens"
     ]
   }
   ]

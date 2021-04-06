@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div v-if="canShow(allergens)" class="card">
     <img :src="image" class="card-img-top" />
     <div class="card-body">
       <h5 class="card-title">{{ name }}</h5>
@@ -59,9 +59,32 @@ export default {
           this.$store.state.order.push(({name,price,calories,ingredients,allergens,priceFloat}));
           this.$store.state.quantity.push(1);
           this.$store.commit('increment')
-        }
-        
+        } 
     },
+    canShow(a){
+      var i;
+      for(i = 0; i < a.length; i++){
+        if(a[i]=== "Milk" && this.$store.state.milk == true){
+            return false;
+        }
+        if(a[i]=== "Eggs" && this.$store.state.eggs == true){
+            return false;
+        }
+        if(a[i]=== "Wheat" && this.$store.state.wheat == true){
+            return false;
+        }
+        if(a[i]=== "Soy" && this.$store.state.soy == true){
+            return false;
+        }
+        if(a[i]=== "Fish" && this.$store.state.fish == true){
+            return false;
+        }
+        if(a[i]=== "Peanuts" && this.$store.state.Peanuts == true){
+            return false;
+        }
+      }
+      return true;
+    }
   },
   
 }

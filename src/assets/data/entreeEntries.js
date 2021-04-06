@@ -201,7 +201,7 @@ export const entires = [
     "allergens": [
       "Eggs",
       "Wheat",
-      "Milk"
+      "Fish"
     ]
   }
 ]

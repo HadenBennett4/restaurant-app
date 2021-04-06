@@ -20,6 +20,12 @@ const store = createStore({
             alcoholCode: "1234",
             isFirstTimeChildMode: true,
             childModePassWord: "",
+            milk: false,
+            eggs: false,
+            fish: false,
+            Peanuts: false,
+            wheat: false,
+            soy: false,
             //User Mode
                 //0 = reg customer
                 //1 = child
