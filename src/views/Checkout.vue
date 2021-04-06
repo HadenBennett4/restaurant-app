@@ -1,5 +1,6 @@
 <template> 
     <div class="container">
+
     <div v-if="this.$store.state.userMode == 0" class="card3">
       <div v-if="this.$store.state.count == 0">
         <font size="+10">NO ITEMS IN ORDER</font>
