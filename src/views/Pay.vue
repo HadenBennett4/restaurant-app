@@ -1,6 +1,7 @@
 <template>
-<div v-if="this.$store.state.userMode == 0">
 <h1 ><font size="+5">PAYMENT</font></h1>
+<div v-if="this.$store.state.userMode == 0">
+
     <div>
           
          <div v-for="item in this.$store.state.paymentOrder" v-bind:key="item" class="col-12">

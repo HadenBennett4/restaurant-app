@@ -28,7 +28,7 @@
                 Total - ${{computeTotal().toFixed(2)}}
                 <br>
                 <br>
-                {{Discount()}}
+                <!--{{Discount()}}-->
                 <router-link align="right" :to="{ path: '/payment' }" class="button3">
                     <font size="+3">Click to Pay</font>
                 </router-link>

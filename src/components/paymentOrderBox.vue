@@ -2,14 +2,26 @@
   <div class="card">
     <div class="card-body">
       <h5 class="card-title"><font size="+3">{{ name }}</font></h5>
-      <p class="card-text">
+      <p class="card-text">    </p>
         <font size="+2">Quantity  - {{ quan }}</font> 
-        <button class="button8" v-on:click="voidOrder(name)">void</button>
-        &emsp;
         <br>
         <font size="+0">Price - ${{ (priceFloat * quan).toFixed(2)}}</font>
-      </p>
-      
+        <button class="button8"  v-on:click="modalTrue()">void</button>
+        <div class="card"  v-if="showModal"></div>  
+          <div  v-if="showModal">
+            <button class="button2" v-on:click="modalFalse()">Back</button>
+            <!--Add a text box for code -->
+            <input  type="text"  v-model="code" placeholrder="Code Here" number>
+            <button class="button3" v-on:click="checkCode(code,name)">Enter Manager Code</button>
+        </div>
+        <div class="card" v-if="showQuantity"></div>  
+          <div  v-if="showQuantity">
+            <button class="button2" v-on:click="QModalFalse()">Back</button>
+            <!--Add a text box for code -->
+            <input  type="text"  v-model="numToVoid" placeholrder="Quantity Here" number>
+            <button class="button3" v-on:click="voidOrder(name,numToVoid)">Enter Number To Void</button>
+        </div>
+        
     </div>
   </div>
 
@@ -17,6 +29,13 @@
 
 <script>
 export default {
+    data () {
+    return {
+      showModal: false,
+      showQuantity: false,
+      numToVoid: 0,
+    }
+  },
   props:{
     name: String,
     price: String,
@@ -24,12 +43,54 @@ export default {
     priceFloat: Number
   },
   methods: {
-    voidOrder(name){
+    voidOrder(name, numToVoid){
       //Get quantity
-      this.$store.state.paymentOrder.splice(this.$store.state.paymentOrder.indexOf(name),1);
-      this.$store.state.paymentQuantity.splice(this.$store.state.paymentOrder.indexOf(name),1)
+      console.log(name);
+      //Only Removing last element in the arrray 
+      var quantityRemoved = 0;
+      var i;
+      for(i = 0; i < this.$store.state.paymentCount; i++){
+        if(name === this.$store.state.paymentOrder[i].name){
+          if(numToVoid < this.$store.state.paymentQuantity[i]){
+            this.$store.state.paymentQuantity[i] = this.$store.state.paymentQuantity[i] - numToVoid;
+            this.showQuantity = false;
+          }else{
+            this.$store.state.paymentQuantity.splice(i,1);
+            this.$store.state.paymentOrder.splice(i,1);
+            this.$store.state.paymentCount--;
+            this.showQuantity = false;
+          }
+          
+        }
+      }
+    },
+    modalFalse(){
+      this.showModal = false;
+
+      console.log(this.showModal);
+    },
+    modalTrue(){
+      this.showModal = true;
+      this.showQuantity = false;
+      console.log(this.showModal);
+    },
+    QModalFalse(){
+      this.showQuantity = false;
+      console.log(this.showQuantity);
+    },
+    QModalTrue(){
+      this.showQuantity = true;
+      console.log(this.showQuantity);
+    },
+    checkCode(code){
+      if(code=="1234"){
+        this.showModal = false;
+        this.showQuantity = true;
+      }
     }
-  }
+  },
+
+
 }
 </script>
 

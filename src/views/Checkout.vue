@@ -59,13 +59,23 @@ export default {
       return 0;
     },
     eraseOrder () {
-        var i;
-        console.log("count - " +this.$store.state.count);
-        for(var i = 0; i < this.$store.state.count; i++){
+      var i;
+      var addNewElement = 0;
+      for(i = 0; i < this.$store.state.count;i++){
+          addNewElement = 0;
+          var x;
+          for(x = 0; x < this.$store.state.paymentCount; x++){
+              if(this.$store.state.order[i].name === this.$store.state.paymentOrder[x].name){
+                  addNewElement = 1;
+                  this.$store.state.paymentQuantity[x] =  this.$store.state.paymentQuantity[x] + this.$store.state.quantity[i];
+              }
+          }
+          if(addNewElement == 0){
             this.$store.state.paymentOrder.push(this.$store.state.order[i]);
             this.$store.state.paymentQuantity.push(this.$store.state.quantity[i]);
             this.$store.state.paymentCount++;
-        }
+          }   
+      }
         console.log("Payment Count - "+this.$store.state.paymentCount);
         this.$store.state.order = [];
         this.$store.state.quantity = [];
