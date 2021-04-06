@@ -33,7 +33,8 @@ export default {
     return {
       showModal: false,
       showQuantity: false,
-      numToVoid: 0,
+      numToVoid: "Quantity",
+      code: "Manager Code"
     }
   },
   props:{
@@ -66,7 +67,7 @@ export default {
     },
     modalFalse(){
       this.showModal = false;
-
+      this.code = "Manager Code";
       console.log(this.showModal);
     },
     modalTrue(){
@@ -76,6 +77,7 @@ export default {
     },
     QModalFalse(){
       this.showQuantity = false;
+      this.code = "Manager Code";
       console.log(this.showQuantity);
     },
     QModalTrue(){
