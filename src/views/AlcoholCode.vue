@@ -1,5 +1,5 @@
 <template>
-\<div class="hero is-fullheight is-info is-bold">
+<div class="hero is-fullheight is-info is-bold">
 <div class="hero-body">
 <div class="container">
 
@@ -10,9 +10,9 @@
     <form id="signup-form">
       <!-- name -->
       <div align="center" class="field">
-        <label class="label">Code</label>
+        <label class="label"><font size="+2">Code</font></label>
         {{name}}
-        <input type="text"  v-model="name" placeholrder="Code Here" number>
+        <input type="text"  v-model="name" placeholder="Code Here" number>
       </div>
 
       <!-- submit button -->
@@ -49,6 +49,9 @@ export default {
     padding-right: 600px;
 }
 .box {
+    padding: 50px;
+    position: fixed;
+  left: 30%;
     padding: 50px;
 }
 </style>
