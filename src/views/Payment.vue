@@ -52,10 +52,22 @@
       <button class="btn btn-primary" type="submit">Submit</button>   
   </div>
   <br>
-
+<div class="Discount">
+    <h2>Spin The Wheel For Free Dessert !!</h2>
+    
+    <img class="wheel" src="../assets/img/circle-cropped.png" />
+    <button type="SpinButton" id="spin" v-on:click="Free()">Go !!</button>
+    </div>
+    <img class="marker" src="../assets/img/marker.png"/>
+    <br>
+    <br>
+    <br>
+<br>
+<br>
 </template>
 
 <script>
+
 export default {
      methods: {
       computeTotal(){
@@ -101,6 +113,23 @@ export default {
           this.$store.state.review = "";
           this.$router.push('/paymentComplete');
           this.$store.state.tipPercent = 0;
+      },
+      Free(){
+        const wheel=document.querySelector('.wheel');
+        let deg = 0;
+
+        deg = Math.floor(2000 +Math.random() * 2000);
+        wheel.style.transition = 'all 5s ease-out';
+        wheel.style.transform = `rotate(${deg}deg)`;
+
+        if(deg%360<180 && deg%360>45){
+            //free dessert
+        }
+        document.getElementById("spin").disabled = true;
+        wheel.addEventListener('transitionend', () => {
+
+          })
+        
       }
   }
 }
@@ -174,5 +203,22 @@ input {
 }
 .ReviewBox{
    border-radius: 120px;
+}
+.wheel{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.marker{
+    margin: 0 auto;
+    position: relative;
+    left: -26px;
+    top: -40px;
+}
+.SpinButton{
+    display: block;
+    width: 250px;
+    margin: 40px auto;
 }
 </style>
