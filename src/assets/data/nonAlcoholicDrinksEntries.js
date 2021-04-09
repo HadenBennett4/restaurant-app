@@ -7,14 +7,8 @@ export const entires = [
       "priceFloat": 1.99,
       "calories": "610",
       "ingredients": [
-        "Brioche Bun",
-        "Mayo",
-        "Pickles"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
-        "Milk"
       ]
     },
     {
@@ -25,13 +19,8 @@ export const entires = [
       "priceFloat": 1.99,
       "calories": "610",
       "ingredients": [
-        "Chicken",
-        "Breading"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
-        "Milk"
       ]
     },
     {
@@ -42,13 +31,8 @@ export const entires = [
       "priceFloat": 1.99,
       "calories": "610",
       "ingredients": [
-        "Chicken",
-        "Breading"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
-        "Milk"
       ]
     },
     {
@@ -59,13 +43,8 @@ export const entires = [
       "priceFloat": 1.99,
       "calories": "610",
       "ingredients": [
-        "Chicken",
-        "Breading"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
-        "Milk"
       ]
     },
     {
@@ -76,13 +55,8 @@ export const entires = [
       "priceFloat": 1.99,
       "calories": "610",
       "ingredients": [
-        "Chicken",
-        "Breading"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
-        "Milk"
       ]
     },
     {
@@ -93,13 +67,8 @@ export const entires = [
       "priceFloat": 1.99,
       "calories": "610",
       "ingredients": [
-        "Chicken",
-        "Breading"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
-        "Milk"
       ]
     },
     {
@@ -110,13 +79,9 @@ export const entires = [
       "priceFloat": 1.99,
       "calories": "610",
       "ingredients": [
-        "Chicken",
-        "Breading"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
-        "Milk"
+        "Milk",
       ]
     },
     {
@@ -127,13 +92,9 @@ export const entires = [
       "priceFloat": 1.99,
       "calories": "610",
       "ingredients": [
-        "Chicken",
-        "Breading"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
-        "Milk"
+        
       ]
     }
   ]
