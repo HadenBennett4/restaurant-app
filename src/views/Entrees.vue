@@ -82,8 +82,19 @@ export default {
 </script>
 
 <style>
+:root {
+  --entrees-primary-color: #ffffff;
+  --entrees-secondary-color: #c2c2c2;
+  --entrees-tertiary-color: #e79804;
+}
+.darkMode {
+  --entrees-primary-color: #404040;
+  --entrees-secondary-color: #b3b3b3;
+  --entrees-tertiary-color: #e79804;
+}
+
   .button10 {
-  background-color: #ffffff;
+  background-color: var(--entrees-primary-color);
   border: none;
   color: rgb(0, 0, 0);
   padding: 15px 32px;
@@ -96,7 +107,7 @@ export default {
   cursor: pointer;
 }
 .button10:hover {
-  background-color: #c2c2c2;
+  background-color: var(--entrees-secondary-color);
   border: none;
   color: rgb(0, 0, 0);
   padding: 15px 32px;
@@ -108,7 +119,7 @@ export default {
   cursor: pointer;
 }
  .button11 {
-  background-color: #e79804;
+  background-color: var(--entrees-tertiary-color);
   border: none;
   color: rgb(0, 0, 0);
   padding: 15px 32px;
@@ -121,7 +132,7 @@ export default {
   cursor: pointer;
 }
 .button11:hover {
-  background-color: #c2c2c2;
+  background-color: var(--entrees-secondary-color);
   border: none;
   color: rgb(0, 0, 0);
   padding: 15px 32px;

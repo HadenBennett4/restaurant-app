@@ -83,6 +83,15 @@ export default {
 </script>
 
 <style>
+:root {
+  --total-primary-color: rgb(255, 255, 255);
+  --total-secondary-color: rgb(221, 221, 221);
+}
+.darkMode {
+  --total-primary-color: #282828;
+  --total-secondary-color: #404040;
+}
+
   .card {
     margin: 10px;
   }
@@ -92,7 +101,7 @@ export default {
     text-align: center;
     padding: 15px 32px;
     border:rgb(4, 228, 161);
-    background-color:rgb(255, 255, 255);
+    background-color: var(--total-primary-color);
   }
   .card3 {
     margin: 10px;
@@ -171,7 +180,7 @@ export default {
   bottom: 0;
   width: 100%;
   height: 200px;
-  background-color: rgb(221, 221, 221);
+  background-color: var(--total-secondary-color);
   border: rgb(116, 60, 60);
   text-align: center;
 }

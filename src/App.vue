@@ -12,18 +12,51 @@
   <router-view/>
 </template>
 <script>
+export default {
+    created() {
+      var hour = new Date().getHours();
+
+      var darkModeToggle = document.getElementById("darkModeToggle");
+
+      if((hour >= 17) || (hour <= 6))
+      {
+        while(!(document.body.classList.contains("darkMode")))
+        {
+          document.body.classList.toggle("darkMode");
+        }
+      }
+      else
+      {
+        while(document.body.classList.contains("darkMode"))
+        {
+          document.body.classList.toggle("darkMode");
+        }
+      }
+    }
+  }
 </script>
 
 <style>
+:root {
+  --app-primary-color: #ddd;
+  --app-secondary-color: #2c3e50;
+  --app-tertiary-color: #000000;
+}
+.darkMode {
+  --app-primary-color: #121212;
+  --app-secondary-color: #B3B3B3;
+  --app-tertiary-color: #282828;
+}
+
 body {
-  background-color: #ddd;
+  background-color: var(--app-primary-color);
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: var(--app-secondary-color);
 }
 
 #nav {
@@ -32,7 +65,7 @@ body {
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: var(--app-secondary-color);
   text-decoration: none;
   padding: 10px;
   border-radius: 4px;
@@ -44,7 +77,7 @@ body {
 }
 
 .navbar .navbar-nav .nav-link {
-    color: #000000;
+    color: var(--app-tertiary-color);
     font-size: 1.1em;
 }
 .navbar .navbar-nav .nav-link:hover{
