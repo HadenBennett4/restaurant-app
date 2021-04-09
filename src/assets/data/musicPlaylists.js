@@ -14,5 +14,9 @@ export const itemTypes = [
     {
       "name": "EDM",
       "image": require("@/assets/img/Music.jpg")
+    },
+    {
+      "name": "Classical",
+      "image": require("@/assets/img/Music.jpg")
     }
   ]

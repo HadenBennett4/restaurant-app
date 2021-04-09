@@ -23,10 +23,12 @@ import Rock from '../views/musicPlaylists/Rock.vue'
 import Pop from '../views/musicPlaylists/Pop.vue'
 import EDM from '../views/musicPlaylists/EDM.vue'
 import Jazz from '../views/musicPlaylists/Jazz.vue'
+import Classical from '../views/musicPlaylists/Classical.vue'
 import CashPayment from '../views/cashPayment.vue'
 import AlcoholCode from '../views/AlcoholCode.vue'
 import ChildModeCode from '../views/ChildModeCode.vue'
 import CheckChildModePassWord from '../views/CheckChildCodePassword'
+
 
 const routes = [
   {
@@ -153,6 +155,11 @@ const routes = [
     path: '/music/Pop',
     name: 'Pop',
     component: Pop,
+  },
+  {    
+    path: '/music/Classical',
+    name: 'Classical',
+    component: Classical,
   },
   {    
     path: '/music/EDM',
