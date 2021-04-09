@@ -7,13 +7,10 @@ export const entires = [
       "priceFloat": 9.99,
       "calories": "610",
       "ingredients": [
-        "Brioche Bun",
-        "Mayo",
-        "Pickles"
+        "Tortilla Chips",
+        "Cheese",
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
         "Milk"
       ]
     },
@@ -25,13 +22,13 @@ export const entires = [
       "priceFloat": 9.99,
       "calories": "610",
       "ingredients": [
-        "Chicken",
-        "Breading"
+        "Pickles",
+        "Breading",
+        "Ranch"
       ],
       "allergens": [
         "Eggs",
-        "Wheat",
-        "Milk"
+        "Wheat"
       ]
     },
     {
@@ -42,14 +39,13 @@ export const entires = [
       "priceFloat": 9.99,
       "calories": "610",
       "ingredients": [
-        "Brioche Bun",
-        "Mayo",
-        "Pickles"
+        "Mozzarella Cheese",
+        "Breading",
+        "Marinara"
       ],
       "allergens": [
         "Eggs",
         "Wheat",
-        "Milk"
       ]
     },
     {
@@ -60,14 +56,14 @@ export const entires = [
       "priceFloat": 9.99,
       "calories": "610",
       "ingredients": [
-        "Brioche Bun",
-        "Mayo",
-        "Pickles"
+        "macaroni",
+        "Cheese",
+        "Breading",
+        "Marinara"
       ],
       "allergens": [
         "Eggs",
         "Wheat",
-        "Milk"
       ]
     },
     {
@@ -78,12 +74,10 @@ export const entires = [
       "priceFloat": 9.99,
       "calories": "610",
       "ingredients": [
-        "Brioche Bun",
-        "Mayo",
-        "Pickles"
+        "Bread",
+        "Garlic",
       ],
       "allergens": [
-        "Eggs",
         "Wheat",
         "Milk"
       ]
@@ -96,12 +90,11 @@ export const entires = [
       "priceFloat": 9.99,
       "calories": "610",
       "ingredients": [
-        "Brioche Bun",
-        "Mayo",
-        "Pickles"
+        "Bread",
+        "Garlic",
+        "Cheese"
       ],
       "allergens": [
-        "Eggs",
         "Wheat",
         "Milk"
       ]

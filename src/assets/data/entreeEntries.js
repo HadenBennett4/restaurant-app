@@ -42,11 +42,13 @@ export const entires = [
     "priceFloat": 14.99,
     "calories": "520",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Beef",
+      "Pickles",
+      "Onions",
+      "Cheese",
+      "Sesame Bun"
     ],
     "allergens": [
-      "Eggs",
       "Wheat",
       "Milk"
     ]
@@ -60,10 +62,10 @@ export const entires = [
     "calories": "520",
     "ingredients": [
       "Chicken",
-      "Breading"
+      "Pasta",
+      "Alfredo Sauce"
     ],
     "allergens": [
-      "Eggs",
       "Wheat",
       "Milk"
     ]
@@ -77,7 +79,10 @@ export const entires = [
     "calories": "520",
     "ingredients": [
       "Chicken",
-      "Breading"
+      "Breading",
+      "Waffles",
+      "Syrup",
+      "Butter"
     ],
     "allergens": [
       "Eggs",
@@ -93,11 +98,10 @@ export const entires = [
     "priceFloat": 14.99,
     "calories": "520",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Cheese",
+      "Bread"
     ],
     "allergens": [
-      "Eggs",
       "Wheat",
       "Milk"
     ]
@@ -110,11 +114,10 @@ export const entires = [
     "priceFloat": 14.99,
     "calories": "520",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Mac",
+      "Cheese"
     ],
     "allergens": [
-      "Eggs",
       "Wheat",
       "Milk"
     ]
@@ -127,11 +130,9 @@ export const entires = [
     "priceFloat": 14.99,
     "calories": "520",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Cheese"
     ],
     "allergens": [
-      "Eggs",
       "Wheat",
       "Milk"
     ]
@@ -144,29 +145,28 @@ export const entires = [
     "priceFloat": 14.99,
     "calories": "520",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Cheese",
+      "Pepperoni"
     ],
     "allergens": [
-      "Eggs",
       "Wheat",
       "Milk"
     ]
   },
   {
     "foodType": "Entrees",
-    "name": "Quesadilla",  
+    "name": "Chicken Quesadilla",  
     "image": require("@/assets/img/Que.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
     "calories": "520",
     "ingredients": [
       "Chicken",
-      "Breading"
+      "Cheese",
+      "Tomato",
+      "Sour Cream"
     ],
     "allergens": [
-      "Eggs",
-      "Wheat",
       "Milk"
     ]
   },
@@ -178,8 +178,8 @@ export const entires = [
     "priceFloat": 14.99,
     "calories": "520",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Sausage",
+      "Stick"
     ],
     "allergens": [
       "Eggs",
@@ -195,13 +195,13 @@ export const entires = [
     "priceFloat": 14.99,
     "calories": "520",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Romane Lettuce",
+      "Parmesean Cheese",
+      "Anchovies"
     ],
     "allergens": [
-      "Eggs",
-      "Wheat",
-      "Fish"
+      "Fish",
+      
     ]
   }
 ]

@@ -7,9 +7,7 @@ export const entires = [
       "priceFloat": 7.99,
       "calories": "610",
       "ingredients": [
-        "Brioche Bun",
-        "Mayo",
-        "Pickles"
+        "Chocolate",
       ],
       "allergens": [
         "Eggs",
@@ -25,12 +23,10 @@ export const entires = [
       "priceFloat": 7.99,
       "calories": "610",
       "ingredients": [
-        "Chicken",
-        "Breading"
+        "Cream",
+        "Ice"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
         "Milk"
       ]
     },
@@ -42,8 +38,9 @@ export const entires = [
       "priceFloat": 7.99,
       "calories": "610",
       "ingredients": [
-        "Chicken",
-        "Breading"
+        "Chocolate",
+        "Cream",
+        "Sugar"
       ],
       "allergens": [
         "Eggs",
@@ -58,8 +55,7 @@ export const entires = [
       "price": "$7.99",
       "calories": "610",
       "ingredients": [
-        "Chicken",
-        "Breading"
+        "Cake"
       ],
       "allergens": [
         "Eggs",
@@ -75,8 +71,7 @@ export const entires = [
       "priceFloat": 7.99,
       "calories": "610",
       "ingredients": [
-        "Chicken",
-        "Breading"
+        "Cake"
       ],
       "allergens": [
         "Eggs",
@@ -92,8 +87,9 @@ export const entires = [
       "priceFloat": 7.99,
       "calories": "610",
       "ingredients": [
-        "Chicken",
-        "Breading"
+        "Cream Filling",
+        "Chocolate Chips",
+        "Cannoli Shell"
       ],
       "allergens": [
         "Eggs",
