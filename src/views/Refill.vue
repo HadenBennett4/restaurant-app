@@ -18,10 +18,7 @@
         </table>
         
 
-    <h3>How many drinks needs to be refilled?</h3>
-      <p>{{number}}</p>
-      <button v-on:click="plus">+</button>
-      <button v-on:click="minus">-</button>
+    
     <br>
     <button v-on:click="enter">Request</button>
     <h2>{{server?"A server will come refill your drink shortly!":""}}</h2>
@@ -67,12 +64,7 @@ export default {
             ],        
     }
     },methods:{
-      plus(){
-         this.number+= 1
-      },
-      minus(){
-        this.number-= 1
-      },
+     
       enter(){
         this.server=!this.server
       },
