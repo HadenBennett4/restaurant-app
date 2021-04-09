@@ -6,10 +6,10 @@
       <p class="card-text">
         {{price}}
       </p>
-      <p class="card-text">
+      <p class="card-text" v-if="ingredients.length>0">
         Ingredients - {{ingredients}}
       </p>
-      <p class="card-text">
+      <p class="card-text" v-if="allergens.length>0">
         Allergens - {{allergens}}
       </p>
       <button class="button3" v-on:click="addItemToOrder(name,price,calories,ingredients,allergens,priceFloat)">Add To Order!</button>
