@@ -91,8 +91,16 @@ export default {
 </script>
 
 <style>
+:root {
+  --item-primary-color: white;
+}
+.darkMode {
+  --item-primary-color: #282828;
+}
+
   .card {
     margin: 10px;
+    background-color: var(--item-primary-color);
   }
   .button3 {
   background-color: #1f7bc7;

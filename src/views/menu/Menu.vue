@@ -51,11 +51,20 @@ export default {
 </script>
 
 <style>
+:root {
+  --menu-primary-color: #1f7bc7;
+  --menu-secondary-color: rgb(0, 119, 255);
+}
+.darkMode {
+  --menu-primary-color: #404040;
+  --menu-secondary-color: rgb(0, 119, 255);
+}
+
 .fixedbutton {
 	position: fixed;
 	bottom: 90%;
 	right: 81%;
-	background-color: #1f7bc7;
+	background-color: var(--menu-primary-color);
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -70,9 +79,9 @@ export default {
 	position: fixed;
 	bottom: 90%;
 	right: 81%;
-	background-color: #1f7bc7;
+	background-color: var(--menu-primary-color);
 	border: none;
-	color: rgb(75, 159, 255);
+	color: var(--menu-secondary-color);
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
