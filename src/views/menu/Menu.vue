@@ -53,8 +53,8 @@ export default {
 <style>
 .fixedbutton {
 	position: fixed;
-	bottom: 87%;
-	right: 87%;
+	bottom: 90%;
+	right: 81%;
 	background-color: #1f7bc7;
 	border: none;
 	color: white;
