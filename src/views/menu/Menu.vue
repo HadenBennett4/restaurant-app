@@ -68,11 +68,11 @@ export default {
 }
 .fixedbutton:hover {
 	position: fixed;
-	bottom: 87%;
-	right: 87%;
+	bottom: 90%;
+	right: 81%;
 	background-color: #1f7bc7;
 	border: none;
-	color: rgb(0, 119, 255);
+	color: rgb(75, 159, 255);
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
