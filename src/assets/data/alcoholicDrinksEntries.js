@@ -1,17 +1,19 @@
+// Used to assign our alcoholic drinks with all the information that we will need later on
+// This includes things like the name of the drink, the picture of the drink, the price, calories, ingredients and allergens
 export const entires = [
   {
-    "foodType": "Non-Alcoholic-Drinks",
-    "name": "White Russian",
-    "image": require("@/assets/img/WhiteRussian.jpg"),
-    "price": "$8.99",
-    "priceFloat": 8.99,
-    "calories": "610",
-    "ingredients": [
+    "foodType": "Non-Alcoholic-Drinks", //Type of food item this is
+    "name": "White Russian", // The name of the drink
+    "image": require("@/assets/img/WhiteRussian.jpg"), // The image and its location that is associated with this drink
+    "price": "$8.99", // The price of this drink in a string
+    "priceFloat": 8.99, // The price of this drink in a float for mathmatical modifications later (like in the checkout)
+    "calories": "610", //How many calories the drink has
+    "ingredients": [ // ingridents in said drink
       "Vodka",
       "Fresh Cream",
       "Coffee Liqeur"
     ],
-    "allergens": [
+    "allergens": [ // allergens associated with this drink
       "Milk"
     ]
   },

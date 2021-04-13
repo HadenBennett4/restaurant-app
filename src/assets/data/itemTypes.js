@@ -1,3 +1,4 @@
+//Used to store the name and image of the types of food we have, these values will be used when showing the types of food we have on the menu page
 export const itemTypes = [
   {
     "name": "Entrees",
