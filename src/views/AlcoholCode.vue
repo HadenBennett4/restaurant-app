@@ -1,3 +1,9 @@
+<!--
+    The AlcoholCode view displays a text button that ask for the server/manager to enter in the alcohol code
+    This page pops up after the customer clicks on Alcoholic drinks
+    This page is used to check if the user is over 21 and can order drinks
+-->
+
 <template>
 <div class="hero is-fullheight is-info is-bold">
 <div class="hero-body">

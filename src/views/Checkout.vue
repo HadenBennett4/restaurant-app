@@ -1,10 +1,19 @@
+<!--
+    The Checkout view displays the order tab.
+    This view uses the checkoutBox component and loops through the order and displays each item as a checkoutBox
+    The checkout view also contains a special instruction box for the users order
+    This is where the user sends their order to the kitchen
+-->
+
 <template> 
     <div class="container">
 
     <div v-if="this.$store.state.userMode == 0" class="card3">
       <div v-if="this.$store.state.count == 0">
+        <!--If there are no items in the order it will not display the checkoutBoxs but instead a message saying that there are no items in the order-->
         <font size="+10">NO ITEMS IN ORDER</font>
         </div>
+        <!--Loops through the order array and displays a checkoutBox for each item-->
       <div v-for="item in this.$store.state.order" v-bind:key="item" class="col-12">
           <checkoutBox :priceFloat="item.priceFloat" :quan="getQuantity(item.name)" :name="item.name" :price="item.price" />
       </div>   
@@ -58,6 +67,8 @@ export default {
       }
       return 0;
     },
+    //When the user sends the order the order is erased from the local data
+        //The order is also sent to the kitchen in the function
     eraseOrder () {
       var i;
       var addNewElement = 0;

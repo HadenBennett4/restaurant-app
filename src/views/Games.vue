@@ -1,3 +1,8 @@
+<!--
+    The games view displays all of the games
+
+-->
+
 <template>
   <h1>Games</h1>
   <div class="container">

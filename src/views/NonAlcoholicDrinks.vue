@@ -1,3 +1,8 @@
+<!--
+    The Non-Alocoholic Drinks view displays all of the Non-Alocoholic Drinks of the menu
+    The user can sort the Non-Alocoholic Drinks based on allergens
+-->
+
 <template>
   <h1>Non-Alcoholic Drinks</h1>
   <button v-if="this.$store.state.milk== false" class="button10" v-on:click="milk(true)">Milk</button>

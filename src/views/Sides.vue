@@ -1,3 +1,10 @@
+<!--
+    NOTE: Sides displays the kids menu (May be changed)
+
+    The Sides view displays all of the Kids Menu of the menu
+    The user can sort the Kids Menu based on allergens
+-->
+
 <template>
   <h1>Kids Menu</h1>
   <button v-if="this.$store.state.milk== false" class="button10" v-on:click="milk(true)">Milk</button>

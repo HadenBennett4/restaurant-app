@@ -1,3 +1,9 @@
+<!--
+    The order complete view displays the following message to the customer
+            "ORDER COMPLETE THE ORDER HAS BEEN SENT TO THE KITCHEN"
+    This page pops up after the customer has sent their order to the kitchen
+-->
+
 <template>
     <body class="backgroundcolor">
     <font size="+12">ORDER COMPLETE <br> THE ORDER HAS BEEN SENT TO THE KITCHEN</font>

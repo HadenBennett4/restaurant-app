@@ -1,3 +1,8 @@
+<!--
+    The Item Component is used to display each different food item. 
+    All types of foods such as kids meals, entrees, desserts,etc. are considered Items
+-->
+
 <template>
   <div v-if="canShow(allergens)" class="card">
     <img :src="image" class="card-img-top" />
@@ -61,6 +66,9 @@ export default {
           this.$store.commit('increment')
         } 
     },
+    //The can show function determines if the item can be show based on which allergen is shown
+      //It checks the items allergens and detemines if they are chosen to be not shown by the customer
+      //The can show function is used in the <template> to show the items
     canShow(a){
       var i;
       for(i = 0; i < a.length; i++){

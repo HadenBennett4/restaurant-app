@@ -1,3 +1,8 @@
+<!--
+    The Entrees view displays all of the Entrees of the menu
+    The user can sort the Entrees based on allergens
+-->
+
 <template>
   <h1>Entrees</h1>
   <button v-if="this.$store.state.milk== false" class="button10" v-on:click="milk(true)">Milk</button>

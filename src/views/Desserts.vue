@@ -1,3 +1,7 @@
+<!--
+    The desserts view displays all of the desserts of the menu
+    The user can sort the desserts based on allergens
+-->
 <template>
   <h1>Desserts</h1>
       <button v-if="this.$store.state.milk== false" class="button10" v-on:click="milk(true)">Milk</button>

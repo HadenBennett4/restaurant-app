@@ -1,8 +1,13 @@
+<!--The checkoutBox component is used in the order page
+    It is used to display one item on the order page
+    The user can increment and decrememnt the quantity of the item using the checkoutBox-->
+
 <template>
   <div class="card">
     <div class="card-body">
       <h5 class="card-title"><font size="+3">{{ name }}</font></h5>
       <p class="card-text">
+        <!-- If the user clicks on the plus or minus buttons then the quantity of the item will be changed accordingly-->
         <button class="button2" v-on:click="decrementQuan(name )">-</button> &emsp; 
         <font size="+2">Quantity  - {{ quan }}</font>
         &emsp;
@@ -10,7 +15,7 @@
         <br>
         <font size="+0">Price - ${{ (priceFloat * quan).toFixed(2)}}</font>
       </p>
-      
+    
     </div>
   </div>
 
@@ -25,6 +30,8 @@ export default {
     priceFloat: Number
   },
   methods: {
+    //IncrementQuan functions will go through the order array and find the item with the matching name
+    //The Number of items with that name will be incremeneted 
       incremenetQuan(name){
         var i;
         for(i = 0; i < this.$store.state.count; i++){
@@ -37,6 +44,8 @@ export default {
         }
         return 0;
       },
+      //IncrementQuan functions will go through the order array and find the item with the matching name
+    //The Number of items with that name will be decremented. (The value will not go below 0)
       decrementQuan(name){
         var i;
         for(i = 0; i < this.$store.state.count; i++){

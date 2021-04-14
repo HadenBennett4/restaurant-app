@@ -1,3 +1,7 @@
+<!--
+    The refill page allows the user to select different drinks for refills using a checkbox
+-->
+
 <template>
   <div class="refill">
     <h1>Need a drink refill?</h1>

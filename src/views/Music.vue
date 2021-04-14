@@ -1,4 +1,6 @@
-
+<!--
+    The music view displays all of the music based on genre
+-->
 <template>
   <h1>Music</h1>
   <div class="container">

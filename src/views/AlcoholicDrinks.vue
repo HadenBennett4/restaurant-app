@@ -1,3 +1,12 @@
+<!--
+    The Alcoholic Drinks view displays all of the Alcoholic Drinks of the menu
+    The user can sort the Alcoholic Drinks based on allergens
+
+    The alcohlic drinks is different than the other menu pages becuase the first time the user clicks on the 
+    alcoholic drink page a server is notified and has to check the ID of the customer
+-->
+
+
 <template>
 
   <div v-if="this.$store.state.is21">

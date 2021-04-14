@@ -1,3 +1,8 @@
+<!--
+    The itemType.vue component is used to display the different types of menu items. 
+    An example of an itemType is "entree" 
+-->
+
 <template>
   <div class="card">
     <img :src="image" class="card-img-top" />

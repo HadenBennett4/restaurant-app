@@ -1,4 +1,12 @@
-<!--This payment form was created bu Kabir Bhatia and was used from bbboostrap.com -->
+<!--This payment form was created bu Kabir Bhatia and was used from bbboostrap.com 
+
+    The Payment view displays 4 Different things
+        1 - Card Information Input Box
+        2 - Pay with cash Instead Button
+        3 - Review Box
+        4 - And Spin Wheel to Win free prize
+
+-->
 
 <template>
   <h1>Payment</h1>
