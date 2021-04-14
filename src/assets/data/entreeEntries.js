@@ -5,7 +5,8 @@ export const entires = [
     "image": require("@/assets/img/ChickenSandwich.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "610",
+    "calories": "670",
+    "fat": "10g",
     "ingredients": [
       "Brioche Bun",
       "Mayo",
@@ -23,7 +24,8 @@ export const entires = [
     "image": require("@/assets/img/ChickenTenders.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "440",
+    "fat": "21g",
     "ingredients": [
       "Chicken",
       "Breading"
@@ -40,7 +42,8 @@ export const entires = [
     "image": require("@/assets/img/CheeseBurg.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "540",
+    "fat": "30g",
     "ingredients": [
       "Beef",
       "Pickles",
@@ -59,7 +62,8 @@ export const entires = [
     "image": require("@/assets/img/ChkAlf.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "570",
+    "fat": "22g",
     "ingredients": [
       "Chicken",
       "Pasta",
@@ -76,7 +80,8 @@ export const entires = [
     "image": require("@/assets/img/ChickenAndWaffles.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "1050",
+    "fat": "52g",
     "ingredients": [
       "Chicken",
       "Breading",
@@ -96,7 +101,8 @@ export const entires = [
     "image": require("@/assets/img/GrilledCheese.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "398",
+    "fat": "26g",
     "ingredients": [
       "Cheese",
       "Bread"
@@ -112,7 +118,8 @@ export const entires = [
     "image": require("@/assets/img/MacAndCheese.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "340",
+    "fat": "11g",
     "ingredients": [
       "Mac",
       "Cheese"
@@ -128,7 +135,8 @@ export const entires = [
     "image": require("@/assets/img/CheesePizza.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "450",
+    "fat": "15g",
     "ingredients": [
       "Cheese"
     ],
@@ -143,7 +151,8 @@ export const entires = [
     "image": require("@/assets/img/PepperoniPizza.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "820",
+    "fat": "35g",
     "ingredients": [
       "Cheese",
       "Pepperoni"
@@ -159,7 +168,8 @@ export const entires = [
     "image": require("@/assets/img/Que.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "450",
+    "fat": "26g",
     "ingredients": [
       "Chicken",
       "Cheese",
@@ -176,7 +186,8 @@ export const entires = [
     "image": require("@/assets/img/Sausage.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "170",
+    "fat": "16g",
     "ingredients": [
       "Sausage",
       "Stick"
@@ -193,7 +204,8 @@ export const entires = [
     "image": require("@/assets/img/CaesarSalad.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "310",
+    "fat": "10g",
     "ingredients": [
       "Romane Lettuce",
       "Parmesean Cheese",

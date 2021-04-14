@@ -7,7 +7,8 @@ export const entires = [
       "image": require("@/assets/img/Coke.jpg"),
       "price": "$1.99",
       "priceFloat": 1.99,
-      "calories": "610",
+      "calories": "140",
+      "carbs": "39g",
       "ingredients": [
       ],
       "allergens": [
@@ -19,7 +20,8 @@ export const entires = [
       "image": require("@/assets/img/DietCoke.jpeg"),
       "price": "$1.99",
       "priceFloat": 1.99,
-      "calories": "610",
+      "calories": "0",
+      "carbs": "41g",
       "ingredients": [
       ],
       "allergens": [
@@ -31,7 +33,8 @@ export const entires = [
       "image": require("@/assets/img/Sprite.jpg"),
       "price": "$1.99",
       "priceFloat": 1.99,
-      "calories": "610",
+      "calories": "140",
+      "carbs": "38g",
       "ingredients": [
       ],
       "allergens": [
@@ -43,7 +46,8 @@ export const entires = [
       "image": require("@/assets/img/Tea.jpg"),
       "price": "$1.99",
       "priceFloat": 1.99,
-      "calories": "610",
+      "calories": "165",
+      "carbs": "29g",
       "ingredients": [
       ],
       "allergens": [
@@ -55,7 +59,8 @@ export const entires = [
       "image": require("@/assets/img/Lemonade.jpg"),
       "price": "$1.99",
       "priceFloat": 1.99,
-      "calories": "610",
+      "calories": "150",
+      "carbs": "42",
       "ingredients": [
       ],
       "allergens": [
@@ -67,7 +72,8 @@ export const entires = [
       "image": require("@/assets/img/Perrier.jpg"),
       "price": "$1.99",
       "priceFloat": 1.99,
-      "calories": "610",
+      "calories": "0",
+      "carbs": "0g",
       "ingredients": [
       ],
       "allergens": [
@@ -79,7 +85,8 @@ export const entires = [
       "image": require("@/assets/img/Milk.jpg"),
       "price": "$1.99",
       "priceFloat": 1.99,
-      "calories": "610",
+      "calories": "230",
+      "carbs": "17g",
       "ingredients": [
       ],
       "allergens": [
@@ -92,7 +99,8 @@ export const entires = [
       "image": require("@/assets/img/Juice.jpg"),
       "price": "$1.99",
       "priceFloat": 1.99,
-      "calories": "610",
+      "calories": "170",
+      "carbs": "41g",
       "ingredients": [
       ],
       "allergens": [
