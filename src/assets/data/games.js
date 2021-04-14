@@ -8,7 +8,7 @@ export const itemTypes = [
       "image": require("@/assets/img/ButtonClicker.jpg")
     },
     {
-      "name": "Game 3",
+      "name": "Snake",
       "image": require("@/assets/img/Tic.jpg")
     },
     {

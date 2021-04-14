@@ -10,7 +10,6 @@
       </router-link>
     </div>
   </div>
-  <!-- <slot name="foodInfo"></slot> -->
 </template>
 
 <script>

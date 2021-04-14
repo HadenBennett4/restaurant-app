@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div v-for="item in itemTypes" :key="item.name" class="col-6">
-          <game :image="item.image" :foodType="item.name"/>
+          <game :image="item.image" :game="item.name"/>
       </div>
     </div>
   </div>
