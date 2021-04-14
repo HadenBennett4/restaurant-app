@@ -1,0 +1,6 @@
+<template>
+    <h1>The Manager's Choice</h1>
+    <p>
+        <iframe src="https://open.spotify.com/embed/playlist/2ObwWCGNPoir0DqKBYQqin" width="700" height="780" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </p>
+</template>

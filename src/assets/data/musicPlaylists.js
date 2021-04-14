@@ -18,5 +18,9 @@ export const itemTypes = [
     {
       "name": "Classical",
       "image": require("@/assets/img/Music.jpg")
+    },
+    {
+      "name": "Manager's-Choice",
+      "image": require("@/assets/img/Music.jpg")
     }
   ]

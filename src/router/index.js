@@ -28,6 +28,7 @@ import CashPayment from '../views/cashPayment.vue'
 import AlcoholCode from '../views/AlcoholCode.vue'
 import ChildModeCode from '../views/ChildModeCode.vue'
 import CheckChildModePassWord from '../views/CheckChildCodePassword'
+import Custom from '../views/musicPlaylists/Custom.vue'
 
 
 const routes = [
@@ -165,6 +166,11 @@ const routes = [
     path: '/music/EDM',
     name: 'EDM',
     component: EDM,
+  },
+  {    
+    path: '/music/Manager\'s-choice',
+    name: 'Manager\'s-choice',
+    component: Custom
   },
   {
     path: '/cashPayment',
