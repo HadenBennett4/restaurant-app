@@ -142,6 +142,7 @@ const routes = [
     name: 'ButtonClicker',
     component: ButtonClicker
   },
+
   {
     path: '/music/Rock',
     name: 'Rock',

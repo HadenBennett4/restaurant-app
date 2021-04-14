@@ -22,7 +22,7 @@ export default({
 <style>
 .button7 {
     padding: 200px 400px;
-    background-color: yellow;
+    background-color: rgb(45, 92, 192);
 }
 
 </style>

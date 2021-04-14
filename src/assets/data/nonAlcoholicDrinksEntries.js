@@ -1,3 +1,5 @@
+// Used to assign our NON alcoholic drinks with all the information that we will need later on
+// This includes things like the name of the drink, the picture of the drink, the price, calories, ingredients and allergens
 export const entires = [
     {
       "foodType": "Non-Alcoholic-Drinks",

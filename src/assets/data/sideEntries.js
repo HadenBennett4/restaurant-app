@@ -1,3 +1,6 @@
+// Used to assign our side entree with all the information that we will need later on
+// This includes things like the name of the side entree, the picture of the side entrees, the price, calories, ingredients and allergens
+//To see an explanation of each variable check out the Appetizers page, all information is essentially copy and pasted from there to these pages with only the values changing
 export const entires = [
   {
     "foodType": "Side",

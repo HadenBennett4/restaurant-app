@@ -73,7 +73,11 @@ export default {
       },
       computeTip(percent){
           this.$store.state.tipPercent = percent;
-          return this.$store.state.tip =  this.computeSubtotal() * this.$store.state.tipPercent/100
+          
+          if(this.$store.state.tipPercent >= 0)
+          {
+            return this.$store.state.tip =  this.computeSubtotal() * this.$store.state.tipPercent/100
+          }
       },
       computeTax(){
           return (this.computeSubtotal() * .0825);
