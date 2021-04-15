@@ -70,6 +70,14 @@
     <br>
     <br>
     <br>
+    <div id='window' style='visibility: hidden'>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Please Collect Your Coupon From The Manager</p>
+            </div>
+        </div>
+    </div>
 <br>
 <br>
 </template>
@@ -123,21 +131,34 @@ export default {
           this.$store.state.tipPercent = 0;
       },
       Free(){
+        var modal = document.getElementById("myModal");
+        var span = document.getElementsByClassName("close")[0];
+        //activate the modal
+        modal.style.display = "block";
+        // close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
         const wheel=document.querySelector('.wheel');
         let deg = 0;
-
+        var node;
+        //calculate how many degreees to rotate
         deg = Math.floor(2000 +Math.random() * 2000);
+        //slow the wheel animation
         wheel.style.transition = 'all 5s ease-out';
+        //rotate wheel image
         wheel.style.transform = `rotate(${deg}deg)`;
 
+        //if wheel lands on green
         if(deg%360<180 && deg%360>45){
-            //free dessert
-        }
-        document.getElementById("spin").disabled = true;
-        wheel.addEventListener('transitionend', () => {
+            //free dessert pop up
+            
+            node = document.getElementById('window');
+            node.style.visibility = 'visible';
 
-          })
-        
+        }
+        //disable button after 1 spin
+        document.getElementById("spin").disabled = true;       
       }
   }
 }
@@ -228,5 +249,35 @@ input {
     display: block;
     width: 250px;
     margin: 40px auto;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 </style>
