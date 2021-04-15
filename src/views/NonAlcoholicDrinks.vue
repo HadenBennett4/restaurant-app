@@ -21,7 +21,7 @@
     <div class="row">
       <div v-for="item in entires" :key="item.name" class="col-6">
           <Item foodType="item.foodType" :name="item.name" :image="item.image" :price="item.price" :priceFloat="item.priceFloat" :calories="item.calories" 
-          :ingredients="item.ingredients" :allergens="item.allergens"/>
+          :ingredients="item.ingredients"  :allergens="item.allergens" :fat="item.fat" :carbs="item.carbs"/>
       </div>
     </div>
   </div>

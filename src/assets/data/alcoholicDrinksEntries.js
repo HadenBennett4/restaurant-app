@@ -8,6 +8,8 @@ export const entires = [
     "price": "$8.99", // The price of this drink in a string
     "priceFloat": 8.99, // The price of this drink in a float for mathmatical modifications later (like in the checkout)
     "calories": "610", //How many calories the drink has
+    "carbs": "610",
+    "fat": "610",
     "ingredients": [ // ingridents in said drink
       "Vodka",
       "Fresh Cream",
@@ -24,6 +26,8 @@ export const entires = [
     "price": "$8.99",
     "priceFloat": 8.99,
     "calories": "610",
+    "carbs": "610",
+    "fat": "610",
     "ingredients": [
       "White Rum",
       "Lime Juice",
@@ -42,6 +46,8 @@ export const entires = [
     "price": "$8.99",
     "priceFloat": 8.99,
     "calories": "610",
+    "carbs": "610",
+    "fat": "610",
     "ingredients": [
       "Gin",
       "Tonic Water"
@@ -57,6 +63,8 @@ export const entires = [
     "price": "$8.99",
     "priceFloat": 8.99,
     "calories": "610",
+    "carbs": "610",
+    "fat": "610",
     "ingredients": [
       "Gomme Syrup",
       "Lemon Juice",
@@ -78,6 +86,8 @@ export const entires = [
     "price": "$8.99",
     "priceFloat": 8.99,
     "calories": "610",
+    "carbs": "610",
+    "fat": "610",
     "ingredients": [
       "Coconut Cream",
       "White Rum",
@@ -94,6 +104,8 @@ export const entires = [
     "price": "$8.99",
     "priceFloat": 8.99,
     "calories": "610",
+    "carbs": "610",
+    "fat": "610",
     "ingredients": [
       "Whiskey",
       "Coke"
@@ -109,6 +121,8 @@ export const entires = [
     "price": "$8.99",
     "priceFloat": 8.99,
     "calories": "610",
+    "carbs": "610",
+    "fat": "610",
     "ingredients": [
       "White Rum",
       "Simple Syrup",
@@ -125,6 +139,8 @@ export const entires = [
     "price": "$8.99",
     "priceFloat": 8.99,
     "calories": "610",
+    "carbs": "610",
+    "fat": "610",
     "ingredients": [
       "Vodka",
       "Lemon Juice",

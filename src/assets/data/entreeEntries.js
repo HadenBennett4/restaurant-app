@@ -6,7 +6,9 @@ export const entires = [
     "price": "$14.99",
     "priceFloat": 14.99,
     "calories": "670",
+    "carbs": "0",
     "fat": "10g",
+    
     "ingredients": [
       "Brioche Bun",
       "Mayo",
@@ -25,6 +27,7 @@ export const entires = [
     "price": "$14.99",
     "priceFloat": 14.99,
     "calories": "440",
+    "carbs": "0",
     "fat": "21g",
     "ingredients": [
       "Chicken",
@@ -43,6 +46,7 @@ export const entires = [
     "price": "$14.99",
     "priceFloat": 14.99,
     "calories": "540",
+    "carbs": "0",
     "fat": "30g",
     "ingredients": [
       "Beef",
@@ -63,6 +67,7 @@ export const entires = [
     "price": "$14.99",
     "priceFloat": 14.99,
     "calories": "570",
+    "carbs": "0",
     "fat": "22g",
     "ingredients": [
       "Chicken",
@@ -81,6 +86,7 @@ export const entires = [
     "price": "$14.99",
     "priceFloat": 14.99,
     "calories": "1050",
+    "carbs": "0",
     "fat": "52g",
     "ingredients": [
       "Chicken",
@@ -102,6 +108,7 @@ export const entires = [
     "price": "$14.99",
     "priceFloat": 14.99,
     "calories": "398",
+    "carbs": "0",
     "fat": "26g",
     "ingredients": [
       "Cheese",
@@ -119,6 +126,7 @@ export const entires = [
     "price": "$14.99",
     "priceFloat": 14.99,
     "calories": "340",
+    "carbs": "0",
     "fat": "11g",
     "ingredients": [
       "Mac",
@@ -136,6 +144,7 @@ export const entires = [
     "price": "$14.99",
     "priceFloat": 14.99,
     "calories": "450",
+    "carbs": "0",
     "fat": "15g",
     "ingredients": [
       "Cheese"
@@ -152,6 +161,7 @@ export const entires = [
     "price": "$14.99",
     "priceFloat": 14.99,
     "calories": "820",
+    "carbs": "0",
     "fat": "35g",
     "ingredients": [
       "Cheese",
@@ -169,6 +179,7 @@ export const entires = [
     "price": "$14.99",
     "priceFloat": 14.99,
     "calories": "450",
+    "carbs": "0",
     "fat": "26g",
     "ingredients": [
       "Chicken",
@@ -187,6 +198,7 @@ export const entires = [
     "price": "$14.99",
     "priceFloat": 14.99,
     "calories": "170",
+    "carbs": "0",
     "fat": "16g",
     "ingredients": [
       "Sausage",
@@ -205,6 +217,7 @@ export const entires = [
     "price": "$14.99",
     "priceFloat": 14.99,
     "calories": "310",
+    "carbs": "0",
     "fat": "10g",
     "ingredients": [
       "Romane Lettuce",

@@ -9,6 +9,8 @@ export const entires = [
     "price": "$7.99",
     "priceFloat": 7.99,
     "calories": "610",
+    "carbs": "0",
+    "fat": "0",
     "ingredients": [
       "Chicken",
       "Breading"
@@ -26,6 +28,8 @@ export const entires = [
     "price": "$7.99",
     "priceFloat": 7.99,
     "calories": "610",
+    "carbs": "0",
+    "fat": "0",
     "ingredients": [
       "Mac",
       "Cheese"
@@ -42,6 +46,8 @@ export const entires = [
     "price": "$7.99",
     "priceFloat": 7.99,
     "calories": "610",
+    "carbs": "0",
+    "fat": "0",
     "ingredients": [
       "Cheese"
     ],
@@ -57,6 +63,8 @@ export const entires = [
     "price": "$7.99",
     "priceFloat": 7.99,
     "calories": "610",
+    "carbs": "0",
+    "fat": "0",
     "ingredients": [
       "Cheese",
       "Pepperoni"
@@ -73,6 +81,8 @@ export const entires = [
     "price": "$7.99",
     "priceFloat": 7.99,
     "calories": "610",
+    "carbs": "0",
+    "fat": "0",
     "ingredients": [
       "Beef",
       "Cheese",
@@ -92,6 +102,8 @@ export const entires = [
     "price": "$7.99",
     "priceFloat": 7.99,
     "calories": "610",
+    "carbs": "0",
+    "fat": "0",
     "ingredients": [
       "Cheese",
       "Tomato",

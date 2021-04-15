@@ -17,6 +17,17 @@
       <p class="card-text" v-if="allergens.length>0">
         Allergens - {{allergens}}
       </p>
+      <p class="card-text" v-if="calories.length>0">
+        Calories - {{calories}}
+      </p>
+      <p class="card-text" v-if="carbs.length>0">
+        Carbs - {{carbs}}
+      </p>
+      <p class="card-text" v-if="fat.length>0">
+        Fat - {{fat}}
+      </p>
+
+
       <button class="button3" v-on:click="addItemToOrder(name,price,calories,ingredients,allergens,priceFloat)">Add To Order!</button>
     </div>
   </div>
@@ -37,7 +48,12 @@ export default {
       calories: String,
       ingredients: Array,
       allergens: Array,
-      priceFloat: Number
+      priceFloat: Number,
+      carbs: String,
+      fat: String,
+      
+      
+    
   },
   methods: {
     addItemToOrder(name,price,calories,ingredients,allergens,priceFloat){

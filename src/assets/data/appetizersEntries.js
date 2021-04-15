@@ -6,6 +6,7 @@ export const entires = [
       "price": "$9.99",
       "priceFloat": 9.99,
       "calories": "346",
+      "carbs": "0g",
       "fat": "19g",
       "ingredients": [
         "Tortilla Chips",
@@ -22,6 +23,7 @@ export const entires = [
       "price": "$9.99",
       "priceFloat": 9.99,
       "calories": "124",
+      "carbs": "0g",
       "fat": "6g",
       "ingredients": [
         "Pickles",
@@ -40,6 +42,7 @@ export const entires = [
       "price": "$9.99",
       "priceFloat": 9.99,
       "calories": "670",
+      "carbs": "0g",
       "fat": "35g",
       "ingredients": [
         "Mozzarella Cheese",
@@ -59,6 +62,7 @@ export const entires = [
       "price": "$9.99",
       "priceFloat": 9.99,
       "calories": "340",
+      "carbs": "0g",
       "fat": "11g",
       "ingredients": [
         "macaroni",
@@ -79,6 +83,7 @@ export const entires = [
       "price": "$9.99",
       "priceFloat": 9.99,
       "calories": "243",
+      "carbs": "0g",
       "fat": "9g",
       "ingredients": [
         "Bread",
@@ -96,6 +101,7 @@ export const entires = [
       "price": "$9.99",
       "priceFloat": 9.99,
       "calories": "310",
+      "carbs": "0g",
       "fat": "22g",
       "ingredients": [
         "Bread",

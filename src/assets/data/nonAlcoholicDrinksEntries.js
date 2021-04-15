@@ -8,7 +8,9 @@ export const entires = [
       "price": "$1.99",
       "priceFloat": 1.99,
       "calories": "140",
+      "fat": "0",
       "carbs": "39g",
+      
       "ingredients": [
       ],
       "allergens": [
@@ -21,6 +23,7 @@ export const entires = [
       "price": "$1.99",
       "priceFloat": 1.99,
       "calories": "0",
+      "fat": "0",
       "carbs": "41g",
       "ingredients": [
       ],
@@ -34,6 +37,7 @@ export const entires = [
       "price": "$1.99",
       "priceFloat": 1.99,
       "calories": "140",
+      "fat": "0",
       "carbs": "38g",
       "ingredients": [
       ],
@@ -47,6 +51,7 @@ export const entires = [
       "price": "$1.99",
       "priceFloat": 1.99,
       "calories": "165",
+      "fat": "0",
       "carbs": "29g",
       "ingredients": [
       ],
@@ -60,7 +65,8 @@ export const entires = [
       "price": "$1.99",
       "priceFloat": 1.99,
       "calories": "150",
-      "carbs": "42",
+      "fat": "0",
+      "carbs": "42g",
       "ingredients": [
       ],
       "allergens": [
@@ -73,6 +79,7 @@ export const entires = [
       "price": "$1.99",
       "priceFloat": 1.99,
       "calories": "0",
+      "fat": "0",
       "carbs": "0g",
       "ingredients": [
       ],
@@ -86,6 +93,7 @@ export const entires = [
       "price": "$1.99",
       "priceFloat": 1.99,
       "calories": "230",
+      "fat": "0",
       "carbs": "17g",
       "ingredients": [
       ],
@@ -100,6 +108,7 @@ export const entires = [
       "price": "$1.99",
       "priceFloat": 1.99,
       "calories": "170",
+      "fat": "0",
       "carbs": "41g",
       "ingredients": [
       ],
