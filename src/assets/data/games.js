@@ -13,7 +13,7 @@ export const itemTypes = [
       "image": require("@/assets/img/Tic.jpg")
     },
     {
-      "name": "Game 4",
-      "image": require("@/assets/img/Tic.jpg")
+      "name": "Coin",
+      "image": require("@/assets/img/Heads.png")
     }
   ]

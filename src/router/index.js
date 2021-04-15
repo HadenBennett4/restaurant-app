@@ -30,6 +30,7 @@ import AlcoholCode from '../views/AlcoholCode.vue'
 import ChildModeCode from '../views/ChildModeCode.vue'
 import CheckChildModePassWord from '../views/CheckChildCodePassword'
 import Custom from '../views/musicPlaylists/Custom.vue'
+import Coin from '../views/Coin.vue'
 
 
 const routes = [
@@ -148,7 +149,11 @@ const routes = [
     name: 'ButtonClicker',
     component: ButtonClicker
   },
-
+  {
+    path: '/games/Coin',
+    name: 'Coin',
+    component: Coin
+  },
   {
     path: '/music/Rock',
     name: 'Rock',
