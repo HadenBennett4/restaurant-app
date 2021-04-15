@@ -17,6 +17,7 @@ import PaymentComplete from '../views/paymentComplete.vue'
 import orderComplete from '../views/orderComplete.vue'
 import Login from '../views/Login.vue'
 import TicTacToe from '../views/TicTacToe.vue'
+import Snake from '../views/SnakeGame/Snake.vue'
 import ButtonClicker from '../views/ButtonClicker.vue'
 import Pay from '../views/Pay.vue'
 import Rock from '../views/musicPlaylists/Rock.vue'
@@ -136,6 +137,11 @@ const routes = [
     path: '/games/TicTacToe',
     name: 'TicTacToe',
     component: TicTacToe
+  },
+  {
+    path: '/games/Snake',
+    name: 'Snake',
+    component: Snake
   },
   {
     path: '/games/ButtonClicker',

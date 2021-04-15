@@ -2,22 +2,21 @@
   <div class="card">
     <img :src="image" class="card-img-top" />
     <div class="card-body">
-      <h5 class="card-title">{{ foodType }}</h5>
+      <h5 class="card-title">{{ game }}</h5>
       <p class="card-text">
       </p>
-      <router-link :to="{ path: '/games/' + foodType}" class="button5">
+      <router-link :to="{ path: '/games/' + game}" class="button5">
         Play 
       </router-link>
     </div>
   </div>
-  <!-- <slot name="foodInfo"></slot> -->
 </template>
 
 <script>
 export default {
   props:{
     image: String,
-    foodType: String
+    game: String
   }
 }
 </script>
