@@ -1,3 +1,9 @@
+<!--
+    The cashPayment view displays a scren that alerts the customer with the message
+                    "A SERVER WILL BE THERE SHORTLY TO COLLECT YOUR PAYMENT"
+    This shows up after the user clicks on pay with cash
+-->
+
 <template>
     <body class="backgroundcolor">
     <font size="+12">A SERVER WILL BE THERE SHORTLY <br>TO COLLECT YOUR PAYMENT</font>

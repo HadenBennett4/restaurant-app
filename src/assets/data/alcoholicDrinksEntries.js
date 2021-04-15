@@ -1,3 +1,5 @@
+// Used to assign our alcoholic drinks with all the information that we will need later on
+// This includes things like the name of the drink, the picture of the drink, the price, calories, ingredients and allergens
 export const entires = [
   //White Russian
   {
@@ -11,7 +13,7 @@ export const entires = [
       "Fresh Cream",
       "Coffee Liqeur"
     ],
-    "allergens": [
+    "allergens": [ // allergens associated with this drink
       "Milk"
     ]
   },
@@ -22,6 +24,8 @@ export const entires = [
     "price": "$8.99",
     "priceFloat": 8.99,
     "calories": "610",
+    "carbs": "610",
+    "fat": "610",
     "ingredients": [
       "White Rum",
       "Lime Juice",
@@ -40,6 +44,8 @@ export const entires = [
     "price": "$8.99",
     "priceFloat": 8.99,
     "calories": "610",
+    "carbs": "610",
+    "fat": "610",
     "ingredients": [
       "Gin",
       "Tonic Water"
@@ -55,6 +61,8 @@ export const entires = [
     "price": "$8.99",
     "priceFloat": 8.99,
     "calories": "610",
+    "carbs": "610",
+    "fat": "610",
     "ingredients": [
       "Gomme Syrup",
       "Lemon Juice",
@@ -76,6 +84,8 @@ export const entires = [
     "price": "$8.99",
     "priceFloat": 8.99,
     "calories": "610",
+    "carbs": "610",
+    "fat": "610",
     "ingredients": [
       "Coconut Cream",
       "White Rum",
@@ -92,6 +102,8 @@ export const entires = [
     "price": "$8.99",
     "priceFloat": 8.99,
     "calories": "610",
+    "carbs": "610",
+    "fat": "610",
     "ingredients": [
       "Whiskey",
       "Coke"
@@ -107,6 +119,8 @@ export const entires = [
     "price": "$8.99",
     "priceFloat": 8.99,
     "calories": "610",
+    "carbs": "610",
+    "fat": "610",
     "ingredients": [
       "White Rum",
       "Simple Syrup",
@@ -123,6 +137,8 @@ export const entires = [
     "price": "$8.99",
     "priceFloat": 8.99,
     "calories": "610",
+    "carbs": "610",
+    "fat": "610",
     "ingredients": [
       "Vodka",
       "Lemon Juice",

@@ -1,3 +1,9 @@
+<!--
+    The paymentComplete view displays the following message to the customer
+                            "PAYMENT COMPLETE"
+    This pops up after the customer enters their card information
+-->
+
 <template>
     <body class="backgroundcolor">
     <font size="+12">PAYMENT COMPLETE</font>

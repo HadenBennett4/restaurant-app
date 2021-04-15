@@ -1,3 +1,6 @@
+<!--
+    The music view displays all of the music based on genre
+-->
 <template>
   <h1>Music</h1>
   <div class="container">
@@ -19,6 +22,7 @@
 import { itemTypes } from '@/assets/data/musicPlaylists.js'
 import game from '@/components/music.vue'
 
+//creates a menu of all the playlists stored in musicPlaylists.js
 export default {
   name: 'Menu',
   components: { game },

@@ -1,3 +1,8 @@
+<!--
+    The Entrees view displays all of the Entrees of the menu
+    The user can sort the Entrees based on allergens
+-->
+
 <template>
   <h1>Entrees</h1>
   <button v-if="this.$store.state.milk== false" class="button10" v-on:click="milk(true)">Milk</button>
@@ -16,7 +21,7 @@
     <div class="row">
       <div v-for="item in entires" :key="item.name" class="col-6">
           <Item foodType="item.foodType" :name="item.name" :image="item.image" :price="item.price" :priceFloat="item.priceFloat" :calories="item.calories" 
-          :ingredients="item.ingredients" :allergens="item.allergens"  />
+          :ingredients="item.ingredients" :allergens="item.allergens"  :fat="item.fat" :carbs="item.carbs"/>
       </div>
     </div>
   </div>
@@ -82,8 +87,19 @@ export default {
 </script>
 
 <style>
+:root {
+  --entrees-primary-color: #ffffff;
+  --entrees-secondary-color: #c2c2c2;
+  --entrees-tertiary-color: #e79804;
+}
+.darkMode {
+  --entrees-primary-color: #404040;
+  --entrees-secondary-color: #b3b3b3;
+  --entrees-tertiary-color: #e79804;
+}
+
   .button10 {
-  background-color: #ffffff;
+  background-color: var(--entrees-primary-color);
   border: none;
   color: rgb(0, 0, 0);
   padding: 15px 32px;
@@ -96,7 +112,7 @@ export default {
   cursor: pointer;
 }
 .button10:hover {
-  background-color: #c2c2c2;
+  background-color: var(--entrees-secondary-color);
   border: none;
   color: rgb(0, 0, 0);
   padding: 15px 32px;
@@ -108,7 +124,7 @@ export default {
   cursor: pointer;
 }
  .button11 {
-  background-color: #e79804;
+  background-color: var(--entrees-tertiary-color);
   border: none;
   color: rgb(0, 0, 0);
   padding: 15px 32px;
@@ -121,7 +137,7 @@ export default {
   cursor: pointer;
 }
 .button11:hover {
-  background-color: #c2c2c2;
+  background-color: var(--entrees-secondary-color);
   border: none;
   color: rgb(0, 0, 0);
   padding: 15px 32px;

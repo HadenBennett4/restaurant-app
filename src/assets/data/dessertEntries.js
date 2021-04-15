@@ -5,11 +5,12 @@ export const entires = [
       "image": require("@/assets/img/Chocolatecake.jpg"),
       "price": "$7.99",
       "priceFloat": 7.99,
-      "calories": "610",
+      "calories": "300",
+      "carbs": "0",
+      "fat": "12g",
+
       "ingredients": [
-        "Brioche Bun",
-        "Mayo",
-        "Pickles"
+        "Chocolate",
       ],
       "allergens": [
         "Eggs",
@@ -23,14 +24,14 @@ export const entires = [
       "image": require("@/assets/img/IceCream.jpg"),
       "price": "$7.99",
       "priceFloat": 7.99,
-      "calories": "610",
+      "calories": "290",
+      "carbs": "0",
+      "fat": "7g",
       "ingredients": [
-        "Chicken",
-        "Breading"
+        "Cream",
+        "Ice"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
         "Milk"
       ]
     },
@@ -40,10 +41,13 @@ export const entires = [
       "image": require("@/assets/img/Tiramisu.jpg"),
       "price": "$7.99",
       "priceFloat": 7.99,
-      "calories": "610",
+      "calories": "240",
+      "carbs": "0",
+      "fat": "0g",
       "ingredients": [
-        "Chicken",
-        "Breading"
+        "Chocolate",
+        "Cream",
+        "Sugar"
       ],
       "allergens": [
         "Eggs",
@@ -56,10 +60,11 @@ export const entires = [
       "foodType": "Desserts",
       "image": require("@/assets/img/VanillaCake.jpg"),
       "price": "$7.99",
-      "calories": "610",
+      "calories": "170",
+      "carbs": "0",
+      "fat": "9g",
       "ingredients": [
-        "Chicken",
-        "Breading"
+        "Cake"
       ],
       "allergens": [
         "Eggs",
@@ -73,10 +78,11 @@ export const entires = [
       "image": require("@/assets/img/CheeseCake.jpg"),
       "price": "$7.99",
       "priceFloat": 7.99,
-      "calories": "610",
+      "calories": "430",
+      "carbs": "0",
+      "fat": "40g",
       "ingredients": [
-        "Chicken",
-        "Breading"
+        "Cake"
       ],
       "allergens": [
         "Eggs",
@@ -90,10 +96,13 @@ export const entires = [
       "image": require("@/assets/img/Cannoli.jpg"),
       "price": "$7.99",
       "priceFloat": 7.99,
-      "calories": "610",
+      "calories": "370",
+      "carbs": "0",
+      "fat": "17g",
       "ingredients": [
-        "Chicken",
-        "Breading"
+        "Cream Filling",
+        "Chocolate Chips",
+        "Cannoli Shell"
       ],
       "allergens": [
         "Eggs",

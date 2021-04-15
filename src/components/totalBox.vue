@@ -1,3 +1,9 @@
+<!--
+    The totalBox is used in the payment page 
+    It contains infromation such as the tip, total, subtotal and tax
+    The totalBox allows the user to enter a custom tip and also includes the button to actually pay
+-->
+
 <template>
   <div v-if="this.$store.state.userMode == 0" class="footer">
     
@@ -43,6 +49,7 @@
 <script>
 export default {
   methods: {
+    //Computes the overall total
       computeTotal(){
         var i;
         var tot = 0;
@@ -60,6 +67,8 @@ export default {
         return tot;
         
       },
+      //Computes the subtotal based on the items that have been ordered
+        //This uses the paymentOrder array that includes all the orders the customer has placed
       computeSubtotal(){
         var i;
         var sub = 0;
@@ -71,10 +80,16 @@ export default {
         }
         return sub;
       },
+      //Computes the tip based on the percentage 
       computeTip(percent){
           this.$store.state.tipPercent = percent;
-          return this.$store.state.tip =  this.computeSubtotal() * this.$store.state.tipPercent/100
+          
+          if(this.$store.state.tipPercent >= 0)
+          {
+            return this.$store.state.tip =  this.computeSubtotal() * this.$store.state.tipPercent/100
+          }
       },
+      //Computes the tax based on the subtotal
       computeTax(){
           return (this.computeSubtotal() * .0825);
       }
@@ -83,6 +98,15 @@ export default {
 </script>
 
 <style>
+:root {
+  --total-primary-color: rgb(255, 255, 255);
+  --total-secondary-color: rgb(221, 221, 221);
+}
+.darkMode {
+  --total-primary-color: #282828;
+  --total-secondary-color: #404040;
+}
+
   .card {
     margin: 10px;
   }
@@ -92,7 +116,7 @@ export default {
     text-align: center;
     padding: 15px 32px;
     border:rgb(4, 228, 161);
-    background-color:rgb(255, 255, 255);
+    background-color: var(--total-primary-color);
   }
   .card3 {
     margin: 10px;
@@ -171,7 +195,7 @@ export default {
   bottom: 0;
   width: 100%;
   height: 200px;
-  background-color: rgb(221, 221, 221);
+  background-color: var(--total-secondary-color);
   border: rgb(116, 60, 60);
   text-align: center;
 }

@@ -1,3 +1,8 @@
+<!--
+    The appetizers view displays all of the appetizers of the menu
+    The user can sort the appetizers based on allergens
+-->
+
 <template>
   <h1>Appetizers</h1>
     <button v-if="this.$store.state.milk== false" class="button10" v-on:click="milk(true)">Milk</button>
@@ -15,8 +20,8 @@
   <div class="container">
     <div class="row">
       <div v-for="item in entires" :key="item.name" class="col-6">
-          <Item foodType="item.foodType" :name="item.name" :image="item.image" :price="item.price" :priceFloat="item.priceFloat" :calories="item.calories" 
-          :ingredients="item.ingredients" :allergens="item.allergens"/>
+          <Item foodType="item.foodType" :name="item.name" :image="item.image" :price="item.price" :priceFloat="item.priceFloat" :calories="item.calories"  
+          :ingredients="item.ingredients" :allergens="item.allergens" :fat="item.fat" :carbs="item.carbs" />
       </div>
     </div>
   </div>

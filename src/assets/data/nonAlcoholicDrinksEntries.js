@@ -1,3 +1,5 @@
+// Used to assign our NON alcoholic drinks with all the information that we will need later on
+// This includes things like the name of the drink, the picture of the drink, the price, calories, ingredients and allergens
 export const entires = [
   //Coke  
   {
@@ -16,9 +18,6 @@ export const entires = [
         "Caffeine"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
-        "Milk"
       ]
     },
     //Diet Coke
@@ -39,9 +38,6 @@ export const entires = [
         "Aspartame",
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
-        "Milk"
       ]
     },
     //Sprite
@@ -58,9 +54,6 @@ export const entires = [
         "Sodium Benzoate"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
-        "Milk"
       ]
     },
     //Iced Tea
@@ -78,9 +71,6 @@ export const entires = [
         "Carbohydrate"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
-        "Milk"
       ]
     },
     //Lemonade
@@ -97,9 +87,6 @@ export const entires = [
         "Lemon Juice"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
-        "Milk"
       ]
     },
     //Club Soda
@@ -118,9 +105,6 @@ export const entires = [
         "Sodium Citrate"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
-        "Milk"
       ]
     },
     //Milk
@@ -130,15 +114,13 @@ export const entires = [
       "image": require("@/assets/img/Milk.jpg"),
       "price": "$1.99",
       "priceFloat": 1.99,
-      "calories": "610",
+      "calories": "230",
+      "fat": "0",
+      "carbs": "17g",
       "ingredients": [
-        "Chicken",
-        "Breading"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
-        "Milk"
+        "Milk",
       ]
     },
     //Apple Juice
@@ -221,9 +203,7 @@ export const entires = [
         "Artificial Flavors"
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
-        "Milk"
+        
       ]
     },
     //Root Beer

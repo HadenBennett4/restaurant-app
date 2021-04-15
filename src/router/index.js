@@ -17,16 +17,21 @@ import PaymentComplete from '../views/paymentComplete.vue'
 import orderComplete from '../views/orderComplete.vue'
 import Login from '../views/Login.vue'
 import TicTacToe from '../views/TicTacToe.vue'
+import Snake from '../views/SnakeGame/Snake.vue'
 import ButtonClicker from '../views/ButtonClicker.vue'
 import Pay from '../views/Pay.vue'
 import Rock from '../views/musicPlaylists/Rock.vue'
 import Pop from '../views/musicPlaylists/Pop.vue'
 import EDM from '../views/musicPlaylists/EDM.vue'
 import Jazz from '../views/musicPlaylists/Jazz.vue'
+import Classical from '../views/musicPlaylists/Classical.vue'
 import CashPayment from '../views/cashPayment.vue'
 import AlcoholCode from '../views/AlcoholCode.vue'
 import ChildModeCode from '../views/ChildModeCode.vue'
 import CheckChildModePassWord from '../views/CheckChildCodePassword'
+import Custom from '../views/musicPlaylists/Custom.vue'
+import Coin from '../views/Coin.vue'
+
 
 const routes = [
   {
@@ -135,9 +140,19 @@ const routes = [
     component: TicTacToe
   },
   {
+    path: '/games/Snake',
+    name: 'Snake',
+    component: Snake
+  },
+  {
     path: '/games/ButtonClicker',
     name: 'ButtonClicker',
     component: ButtonClicker
+  },
+  {
+    path: '/games/Coin',
+    name: 'Coin',
+    component: Coin
   },
   {
     path: '/music/Rock',
@@ -155,9 +170,19 @@ const routes = [
     component: Pop,
   },
   {    
+    path: '/music/Classical',
+    name: 'Classical',
+    component: Classical,
+  },
+  {    
     path: '/music/EDM',
     name: 'EDM',
     component: EDM,
+  },
+  {    
+    path: '/music/Manager\'s-choice',
+    name: 'Manager\'s-choice',
+    component: Custom
   },
   {
     path: '/cashPayment',

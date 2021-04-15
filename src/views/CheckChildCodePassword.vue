@@ -1,5 +1,11 @@
+<!--
+    The CheckChildCodePassword view displays a textinput asking for a code. 
+    This code pops up after the customer has already entered in their one time child code password
+    If the code is correct and the user presses enter then child code will be turned off and the user will be able to order food again
+-->
+
 <template>
-\<div class="hero is-fullheight is-info is-bold">
+<div class="hero is-fullheight is-info is-bold">
 <div class="hero-body">
 <div class="container">
 
@@ -31,6 +37,8 @@
 <script>
 export default {
     methods: {
+      //The checkvalue method checks to see if the code the user enters is equal to the child code password entered earlier
+      //If the codes match then the page will be redirected to the menu and child mode will be turned off
         checkValue(name){
             console.log(name);
             if(name === this.$store.state.childModePassWord){

@@ -1,3 +1,8 @@
+<!--
+    The Item Component is used to display each different food item. 
+    All types of foods such as kids meals, entrees, desserts,etc. are considered Items
+-->
+
 <template>
   <div v-if="canShow(allergens)" class="card">
     <img :src="image" class="card-img-top" />
@@ -6,12 +11,23 @@
       <p class="card-text">
         {{price}}
       </p>
-      <p class="card-text">
+      <p class="card-text" v-if="ingredients.length>0">
         Ingredients - {{ingredients}}
       </p>
-      <p class="card-text">
+      <p class="card-text" v-if="allergens.length>0">
         Allergens - {{allergens}}
       </p>
+      <p class="card-text" v-if="calories.length>0">
+        Calories - {{calories}}
+      </p>
+      <p class="card-text" v-if="carbs.length>0">
+        Carbs - {{carbs}}
+      </p>
+      <p class="card-text" v-if="fat.length>0">
+        Fat - {{fat}}
+      </p>
+
+
       <button class="button3" v-on:click="addItemToOrder(name,price,calories,ingredients,allergens,priceFloat)">Add To Order!</button>
     </div>
   </div>
@@ -32,7 +48,12 @@ export default {
       calories: String,
       ingredients: Array,
       allergens: Array,
-      priceFloat: Number
+      priceFloat: Number,
+      carbs: String,
+      fat: String,
+      
+      
+    
   },
   methods: {
     addItemToOrder(name,price,calories,ingredients,allergens,priceFloat){
@@ -61,6 +82,9 @@ export default {
           this.$store.commit('increment')
         } 
     },
+    //The can show function determines if the item can be show based on which allergen is shown
+      //It checks the items allergens and detemines if they are chosen to be not shown by the customer
+      //The can show function is used in the <template> to show the items
     canShow(a){
       var i;
       for(i = 0; i < a.length; i++){
@@ -91,8 +115,16 @@ export default {
 </script>
 
 <style>
+:root {
+  --item-primary-color: white;
+}
+.darkMode {
+  --item-primary-color: #282828;
+}
+
   .card {
     margin: 10px;
+    background-color: var(--item-primary-color);
   }
   .button3 {
   background-color: #1f7bc7;

@@ -5,7 +5,10 @@ export const entires = [
     "image": require("@/assets/img/ChickenSandwich.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "610",
+    "calories": "670",
+    "carbs": "0",
+    "fat": "10g",
+    
     "ingredients": [
       "Brioche Bun",
       "Mayo",
@@ -23,7 +26,9 @@ export const entires = [
     "image": require("@/assets/img/ChickenTenders.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "440",
+    "carbs": "0",
+    "fat": "21g",
     "ingredients": [
       "Chicken",
       "Breading"
@@ -40,13 +45,17 @@ export const entires = [
     "image": require("@/assets/img/CheeseBurg.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "540",
+    "carbs": "0",
+    "fat": "30g",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Beef",
+      "Pickles",
+      "Onions",
+      "Cheese",
+      "Sesame Bun"
     ],
     "allergens": [
-      "Eggs",
       "Wheat",
       "Milk"
     ]
@@ -57,13 +66,15 @@ export const entires = [
     "image": require("@/assets/img/ChkAlf.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "570",
+    "carbs": "0",
+    "fat": "22g",
     "ingredients": [
       "Chicken",
-      "Breading"
+      "Pasta",
+      "Alfredo Sauce"
     ],
     "allergens": [
-      "Eggs",
       "Wheat",
       "Milk"
     ]
@@ -74,10 +85,15 @@ export const entires = [
     "image": require("@/assets/img/ChickenAndWaffles.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "1050",
+    "carbs": "0",
+    "fat": "52g",
     "ingredients": [
       "Chicken",
-      "Breading"
+      "Breading",
+      "Waffles",
+      "Syrup",
+      "Butter"
     ],
     "allergens": [
       "Eggs",
@@ -91,13 +107,14 @@ export const entires = [
     "image": require("@/assets/img/GrilledCheese.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "398",
+    "carbs": "0",
+    "fat": "26g",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Cheese",
+      "Bread"
     ],
     "allergens": [
-      "Eggs",
       "Wheat",
       "Milk"
     ]
@@ -108,13 +125,14 @@ export const entires = [
     "image": require("@/assets/img/MacAndCheese.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "340",
+    "carbs": "0",
+    "fat": "11g",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Mac",
+      "Cheese"
     ],
     "allergens": [
-      "Eggs",
       "Wheat",
       "Milk"
     ]
@@ -125,13 +143,13 @@ export const entires = [
     "image": require("@/assets/img/CheesePizza.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "450",
+    "carbs": "0",
+    "fat": "15g",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Cheese"
     ],
     "allergens": [
-      "Eggs",
       "Wheat",
       "Milk"
     ]
@@ -142,31 +160,34 @@ export const entires = [
     "image": require("@/assets/img/PepperoniPizza.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "820",
+    "carbs": "0",
+    "fat": "35g",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Cheese",
+      "Pepperoni"
     ],
     "allergens": [
-      "Eggs",
       "Wheat",
       "Milk"
     ]
   },
   {
     "foodType": "Entrees",
-    "name": "Quesadilla",  
+    "name": "Chicken Quesadilla",  
     "image": require("@/assets/img/Que.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "450",
+    "carbs": "0",
+    "fat": "26g",
     "ingredients": [
       "Chicken",
-      "Breading"
+      "Cheese",
+      "Tomato",
+      "Sour Cream"
     ],
     "allergens": [
-      "Eggs",
-      "Wheat",
       "Milk"
     ]
   },
@@ -176,10 +197,12 @@ export const entires = [
     "image": require("@/assets/img/Sausage.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "170",
+    "carbs": "0",
+    "fat": "16g",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Sausage",
+      "Stick"
     ],
     "allergens": [
       "Eggs",
@@ -193,15 +216,17 @@ export const entires = [
     "image": require("@/assets/img/CaesarSalad.jpg"),
     "price": "$14.99",
     "priceFloat": 14.99,
-    "calories": "520",
+    "calories": "310",
+    "carbs": "0",
+    "fat": "10g",
     "ingredients": [
-      "Chicken",
-      "Breading"
+      "Romane Lettuce",
+      "Parmesean Cheese",
+      "Anchovies"
     ],
     "allergens": [
-      "Eggs",
-      "Wheat",
-      "Fish"
+      "Fish",
+      
     ]
   }
 ]

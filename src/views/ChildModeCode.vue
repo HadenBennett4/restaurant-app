@@ -1,3 +1,8 @@
+<!--
+    The ChildModeCode view is used by the customer to enter a One Time Password for the child mode.
+    When the user first clicks on the child mode button then the user will be taken to this view.
+-->
+
 <template>
 <div class="hero is-fullheight is-info is-bold">
 <div class="hero-body">

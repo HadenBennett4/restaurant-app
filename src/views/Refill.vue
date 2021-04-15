@@ -1,8 +1,13 @@
+<!--
+    The refill page allows the user to select different drinks for refills using a checkbox
+-->
+
 <template>
   <div class="refill">
     <h1>Need a drink refill?</h1>
     <h2>We got you!</h2>
     
+   
     <h3>Select your drink here:</h3>
   
     <table>
@@ -15,6 +20,12 @@
                 <td>{{user.customize}}</td>      
             </tr>
         </table>
+        
+
+    <h3>How many drinks needs to be refilled?</h3>
+      <p>{{number}}</p>
+      <button v-on:click="plus">+</button>
+      <button v-on:click="minus">-</button>
     <br>
     <button v-on:click="enter">Request</button>
     <h2>{{server?"A server will come refill your drink shortly!":""}}</h2>
@@ -50,6 +61,8 @@ export default {
                 {drink2: "Coke"},
                 {drink2: "Diet Coke"},
                 {drink2: "Sprite"},
+                {drink2: "RC Cola"},
+                {drink2: "RC Diet Cola"},
                 {drink2: "Dr. Thunder"},
                 {drink2: "Diet Dr. Thunder"},
                 {drink2: "Hawaiian Punch"},
@@ -60,10 +73,19 @@ export default {
                 {drink2: "Unsweet Tea"},
                 {drink2: "Apple Juice"},
                 {drink2: "Milk"},
+                {drink2: "Shirley Temple"},
+                {drink2: "Sweet Tea"},
+                {drink2: "Unsweet Tea"},
                 {drink2: "Water"} 
             ],        
     }
     },methods:{
+      plus(){
+         this.number+= 1
+      },
+      minus(){
+        this.number-= 1
+      },
       enter(){
         this.server=!this.server
       },
@@ -97,6 +119,7 @@ table {
   text-align: center;
  
 }
+
 data {
   white-space: pre-line;
 }

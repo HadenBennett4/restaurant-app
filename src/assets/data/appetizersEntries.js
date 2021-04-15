@@ -5,15 +5,14 @@ export const entires = [
       "image": require("@/assets/img/Nachos.jpg"),
       "price": "$9.99",
       "priceFloat": 9.99,
-      "calories": "610",
+      "calories": "346",
+      "carbs": "0g",
+      "fat": "19g",
       "ingredients": [
-        "Brioche Bun",
-        "Mayo",
-        "Pickles"
+        "Tortilla Chips",
+        "Cheese",
       ],
       "allergens": [
-        "Eggs",
-        "Wheat",
         "Milk"
       ]
     },
@@ -23,15 +22,17 @@ export const entires = [
       "image": require("@/assets/img/FriedPickles.jpg"),
       "price": "$9.99",
       "priceFloat": 9.99,
-      "calories": "610",
+      "calories": "124",
+      "carbs": "0g",
+      "fat": "6g",
       "ingredients": [
-        "Chicken",
-        "Breading"
+        "Pickles",
+        "Breading",
+        "Ranch"
       ],
       "allergens": [
         "Eggs",
-        "Wheat",
-        "Milk"
+        "Wheat"
       ]
     },
     {
@@ -40,16 +41,18 @@ export const entires = [
       "image": require("@/assets/img/MozzarellaSticks.jpg"),
       "price": "$9.99",
       "priceFloat": 9.99,
-      "calories": "610",
+      "calories": "670",
+      "carbs": "0g",
+      "fat": "35g",
       "ingredients": [
-        "Brioche Bun",
-        "Mayo",
-        "Pickles"
+        "Mozzarella Cheese",
+        "Breading",
+        "Marinara"
       ],
       "allergens": [
+        "Milk",
         "Eggs",
         "Wheat",
-        "Milk"
       ]
     },
     {
@@ -58,16 +61,19 @@ export const entires = [
       "image": require("@/assets/img/FriedMacAndCheese.jpg"),
       "price": "$9.99",
       "priceFloat": 9.99,
-      "calories": "610",
+      "calories": "340",
+      "carbs": "0g",
+      "fat": "11g",
       "ingredients": [
-        "Brioche Bun",
-        "Mayo",
-        "Pickles"
+        "macaroni",
+        "Cheese",
+        "Breading",
+        "Marinara"
       ],
       "allergens": [
+        "Milk",
         "Eggs",
         "Wheat",
-        "Milk"
       ]
     },
     {
@@ -76,14 +82,14 @@ export const entires = [
       "image": require("@/assets/img/GarlicBread.jpg"),
       "price": "$9.99",
       "priceFloat": 9.99,
-      "calories": "610",
+      "calories": "243",
+      "carbs": "0g",
+      "fat": "9g",
       "ingredients": [
-        "Brioche Bun",
-        "Mayo",
-        "Pickles"
+        "Bread",
+        "Garlic",
       ],
       "allergens": [
-        "Eggs",
         "Wheat",
         "Milk"
       ]
@@ -94,14 +100,15 @@ export const entires = [
       "image": require("@/assets/img/GarlicBreadWithCheese.jpg"),
       "price": "$9.99",
       "priceFloat": 9.99,
-      "calories": "610",
+      "calories": "310",
+      "carbs": "0g",
+      "fat": "22g",
       "ingredients": [
-        "Brioche Bun",
-        "Mayo",
-        "Pickles"
+        "Bread",
+        "Garlic",
+        "Cheese"
       ],
       "allergens": [
-        "Eggs",
         "Wheat",
         "Milk"
       ]

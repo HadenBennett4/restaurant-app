@@ -1,3 +1,7 @@
+<!--
+    The desserts view displays all of the desserts of the menu
+    The user can sort the desserts based on allergens
+-->
 <template>
   <h1>Desserts</h1>
       <button v-if="this.$store.state.milk== false" class="button10" v-on:click="milk(true)">Milk</button>
@@ -16,7 +20,7 @@
     <div class="row">
       <div v-for="item in entires" :key="item.name" class="col-6">
           <Item foodType="item.foodType" :name="item.name" :image="item.image" :price="item.price" :priceFloat="item.priceFloat" :calories="item.calories" 
-          :ingredients="item.ingredients" :allergens="item.allergens"/>
+          :ingredients="item.ingredients" :allergens="item.allergens"  :carbs="item.carbs" :fat="item.fat"/>
       </div>
     </div>
   </div>

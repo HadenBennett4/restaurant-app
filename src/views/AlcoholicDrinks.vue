@@ -1,3 +1,12 @@
+<!--
+    The Alcoholic Drinks view displays all of the Alcoholic Drinks of the menu
+    The user can sort the Alcoholic Drinks based on allergens
+
+    The alcohlic drinks is different than the other menu pages becuase the first time the user clicks on the 
+    alcoholic drink page a server is notified and has to check the ID of the customer
+-->
+
+
 <template>
 
   <div v-if="this.$store.state.is21">
@@ -18,7 +27,7 @@
     <div class="row">
       <div  v-for="item in entires" :key="item.name" class="col-6" >
           <Item foodType="item.foodType" :name="item.name" :image="item.image" :price="item.price" :priceFloat="item.priceFloat" :calories="item.calories" 
-          :ingredients="item.ingredients" :allergens="item.allergens"/>
+          :ingredients="item.ingredients" :allergens="item.allergens"  :carbs="item.carbs" :fat="item.fat"/>
       </div>
       
     </div>

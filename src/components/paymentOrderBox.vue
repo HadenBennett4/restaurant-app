@@ -1,3 +1,10 @@
+<!--
+  The paymentOrderBox component is used in the pay tab of the application
+  A list of paymentOrderBoxs are displayed in the payment section
+  Each one shows the item name, the quantity ordered, the price, and a void button
+  When the void button is clicked the manager has to enter in a code along with the quantity of items they want to void. 
+-->
+
 <template>
   <div class="card">
     <div class="card-body">
@@ -44,10 +51,10 @@ export default {
     priceFloat: Number
   },
   methods: {
+    //The void order function loops through the paymentOrder array and finds the item with the matching name
+    //If the item has a quantity that is greater than the amount wanting to be removed then the quanityt of that item will be reduced by the amount wanted
+    //However if the quantity wanting to be removed is more than the total quantity of the item then the item will be removed from the array fully
     voidOrder(name, numToVoid){
-      //Get quantity
-      console.log(name);
-      //Only Removing last element in the arrray 
       var quantityRemoved = 0;
       var i;
       for(i = 0; i < this.$store.state.paymentCount; i++){

@@ -1,3 +1,5 @@
+
+
 <template>
 <br>
 <br><br>
@@ -19,9 +21,18 @@ export default {
 </script>
 
 <style>
+:root {
+  --help-primary-color: #e79804;
+  --help-secondary-color: #353535;
+}
+.darkMode {
+  --help-primary-color: #282828;
+  --help-secondary-color: #181818;
+}
+
 .button6 {
-  background-color: #e79804;
-  border: #353535;
+  background-color: var(--help-primary-color);
+  border: var(--help-secondary-color);
   border-style: solid;
   color: white;
   width: 75%;
@@ -35,7 +46,7 @@ export default {
   cursor: pointer;
 }
 .button6:hover {
-  background-color: #e79804;
+  background-color: var(--help-primary-color);
   border: rgb(0, 119, 255);
   border-style: solid;
   color: rgb(0, 119, 255);
