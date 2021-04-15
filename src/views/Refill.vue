@@ -35,6 +35,7 @@ export default {
                 //alcoholic
                 {drink: "Soju", customize: "Flavor: Grapefruit, Green Grape, Peach, Strawberry, Apple, Yogurt, Lychee"},
                 {drink: "Whiskey Sour", customize: "Customize: Bourbon, Lemon Juice, Simple Syrup, Egg White"},
+                {drink: "White Russian", customize: "Customize: Vodka, Fresh Cream, Coffee Liqueur"},
                 {drink: "Old Fashion", customize: "Customize: Bourbon, Sugar Cubes, Angostura Bitters, Cherry, Orange Slices"},
                 {drink: "Appletini", customize: "Customize: Vodka, Apple Schnapps, Cointreau"},
                 {drink: "Margarita", customize: "Customize: Cointreau, Lime Juice, Tequila"},  
@@ -51,13 +52,13 @@ export default {
                 {drink2: "Sprite"},
                 {drink2: "Dr. Thunder"},
                 {drink2: "Diet Dr. Thunder"},
-                {drink2: "Sparkling Water"},
                 {drink2: "Hawaiian Punch"},
                 {drink2: "Root Beer"},
                 {drink2: "Club Soda"},
                 {drink2: "Lemonade"},
                 {drink2: "Sweet Tea"},
                 {drink2: "Unsweet Tea"},
+                {drink2: "Apple Juice"},
                 {drink2: "Milk"},
                 {drink2: "Water"} 
             ],        
