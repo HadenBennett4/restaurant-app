@@ -1,6 +1,6 @@
 export const entires = [
+  //White Russian
   {
-    "foodType": "Non-Alcoholic-Drinks",
     "name": "White Russian",
     "image": require("@/assets/img/WhiteRussian.jpg"),
     "price": "$8.99",
