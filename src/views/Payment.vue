@@ -68,13 +68,12 @@
     </div>
     <img class="marker" src="../assets/img/marker.png"/>
     <br>
-    <br>
-    <br>
     <div id='window' style='visibility: hidden'>
+        <button id="redeem"> Prize Info </button>
         <div id="myModal" class="modal">
             <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>Please Collect Your Coupon From The Manager</p>
+                <span class="close">&times;</span>
+                <p>Collect Your Coupon From The Manager</p>
             </div>
         </div>
     </div>
@@ -132,13 +131,18 @@ export default {
       },
       Free(){
         var modal = document.getElementById("myModal");
+        var redeemBtn = document.getElementById("redeem");
         var span = document.getElementsByClassName("close")[0];
-        //activate the modal
+        //open the modal 
+        redeemBtn.onclick = function() {
         modal.style.display = "block";
-        // close the modal
-        span.onclick = function() {
-            modal.style.display = "none";
         }
+        //close the modal
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+
+
         const wheel=document.querySelector('.wheel');
         let deg = 0;
         var node;
@@ -151,11 +155,9 @@ export default {
 
         //if wheel lands on green
         if(deg%360<180 && deg%360>45){
-            //free dessert pop up
-            
+            //make the redeeming button visible
             node = document.getElementById('window');
             node.style.visibility = 'visible';
-
         }
         //disable button after 1 spin
         document.getElementById("spin").disabled = true;       
