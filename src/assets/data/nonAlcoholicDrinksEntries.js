@@ -146,7 +146,7 @@ export const entires = [
     {
       "name": "Dr. Thunder",
       "foodType": "Non-Alcoholic-Drinks",
-      "image": require("@/assets/img/dr.thunder.jpg"),
+      "image": require("@/assets/img/Coke.jpg"),
       "price": "$1.99",
       "priceFloat": 1.99,
       "calories": "160",
@@ -168,7 +168,7 @@ export const entires = [
     {
       "name": "Diet Dr. Thunder",
       "foodType": "Non-Alcoholic-Drinks",
-      "image": require("@/assets/img/dietdrthunder.jpg"),
+      "image": require("@/assets/img/Coke.jpg"),
       "price": "$1.99",
       "priceFloat": 1.99,
       "calories": "0",
@@ -190,7 +190,7 @@ export const entires = [
     {
       "name": "Hawaiian Punch",
       "foodType": "Non-Alcoholic-Drinks",
-      "image": require("@/assets/img/hawaiian punch.jpg"),
+      "image": require("@/assets/img/Coke.jpg"),
       "price": "$1.99",
       "priceFloat": 1.99,
       "calories": "80",
@@ -210,7 +210,7 @@ export const entires = [
     {
       "name": "Root Beer",
       "foodType": "Non-Alcoholic-Drinks",
-      "image": require("@/assets/img/root beer.jpg"),
+      "image": require("@/assets/img/Coke.jpg"),
       "price": "$1.99",
       "priceFloat": 1.99,
       "calories": "152",
@@ -233,7 +233,7 @@ export const entires = [
     {
       "name": "Water",
       "foodType": "Non-Alcoholic-Drinks",
-      "image": require("@/assets/img/water.jpg"),
+      "image": require("@/assets/img/Coke.jpg"),
       "price": "$1.99",
       "priceFloat": 1.99,
       "calories": "0",
